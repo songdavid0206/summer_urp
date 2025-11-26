@@ -1,0 +1,114 @@
+[0.708s] Invoking command in '/home/songdavid/ff_ws/build/explorer_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/songdavid/ff_ws/install/autonomous_exploration:/home/songdavid/turtlebot3_ws/install/explorer_bringup:/home/songdavid/turtlebot3_ws/install/turtlebot3_teleop:/home/songdavid/turtlebot3_ws/install/turtlebot3_example:/home/songdavid/turtlebot3_ws/install/explorer_wanderer:/home/songdavid/turtlebot3_ws/install/explorer_map_utils:/home/songdavid/turtlebot3_ws/install/exploration_pkg:/opt/ros/humble /usr/bin/cmake /home/songdavid/ff_ws/src/ros2_explorer/explorer_gazebo -DCMAKE_INSTALL_PREFIX=/home/songdavid/ff_ws/install/explorer_gazebo
+[1.217s] -- The C compiler identification is GNU 11.4.0
+[1.217s] -- The CXX compiler identification is GNU 11.4.0
+[1.217s] -- Detecting C compiler ABI info
+[1.218s] -- Detecting C compiler ABI info - done
+[1.218s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.218s] -- Detecting C compile features
+[1.218s] -- Detecting C compile features - done
+[1.218s] -- Detecting CXX compiler ABI info
+[1.265s] -- Detecting CXX compiler ABI info - done
+[1.288s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.289s] -- Detecting CXX compile features
+[1.289s] -- Detecting CXX compile features - done
+[1.298s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.586s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.813s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.067s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.079s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.084s] -- Added test 'lint_cmake' to check CMake code style
+[2.086s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.094s] -- Added test 'xmllint' to check XML markup files
+[2.098s] -- Configuring done
+[2.101s] -- Generating done
+[2.103s] -- Build files have been written to: /home/songdavid/ff_ws/build/explorer_gazebo
+[2.144s] Invoked command in '/home/songdavid/ff_ws/build/explorer_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/songdavid/ff_ws/install/autonomous_exploration:/home/songdavid/turtlebot3_ws/install/explorer_bringup:/home/songdavid/turtlebot3_ws/install/turtlebot3_teleop:/home/songdavid/turtlebot3_ws/install/turtlebot3_example:/home/songdavid/turtlebot3_ws/install/explorer_wanderer:/home/songdavid/turtlebot3_ws/install/explorer_map_utils:/home/songdavid/turtlebot3_ws/install/exploration_pkg:/opt/ros/humble /usr/bin/cmake /home/songdavid/ff_ws/src/ros2_explorer/explorer_gazebo -DCMAKE_INSTALL_PREFIX=/home/songdavid/ff_ws/install/explorer_gazebo
+[2.147s] Invoking command in '/home/songdavid/ff_ws/build/explorer_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/songdavid/ff_ws/install/autonomous_exploration:/home/songdavid/turtlebot3_ws/install/explorer_bringup:/home/songdavid/turtlebot3_ws/install/turtlebot3_teleop:/home/songdavid/turtlebot3_ws/install/turtlebot3_example:/home/songdavid/turtlebot3_ws/install/explorer_wanderer:/home/songdavid/turtlebot3_ws/install/explorer_map_utils:/home/songdavid/turtlebot3_ws/install/exploration_pkg:/opt/ros/humble /usr/bin/cmake --build /home/songdavid/ff_ws/build/explorer_gazebo -- -j8 -l8
+[2.219s] Invoked command in '/home/songdavid/ff_ws/build/explorer_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/songdavid/ff_ws/install/autonomous_exploration:/home/songdavid/turtlebot3_ws/install/explorer_bringup:/home/songdavid/turtlebot3_ws/install/turtlebot3_teleop:/home/songdavid/turtlebot3_ws/install/turtlebot3_example:/home/songdavid/turtlebot3_ws/install/explorer_wanderer:/home/songdavid/turtlebot3_ws/install/explorer_map_utils:/home/songdavid/turtlebot3_ws/install/exploration_pkg:/opt/ros/humble /usr/bin/cmake --build /home/songdavid/ff_ws/build/explorer_gazebo -- -j8 -l8
+[2.224s] Invoking command in '/home/songdavid/ff_ws/build/explorer_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/songdavid/ff_ws/install/autonomous_exploration:/home/songdavid/turtlebot3_ws/install/explorer_bringup:/home/songdavid/turtlebot3_ws/install/turtlebot3_teleop:/home/songdavid/turtlebot3_ws/install/turtlebot3_example:/home/songdavid/turtlebot3_ws/install/explorer_wanderer:/home/songdavid/turtlebot3_ws/install/explorer_map_utils:/home/songdavid/turtlebot3_ws/install/exploration_pkg:/opt/ros/humble /usr/bin/cmake --install /home/songdavid/ff_ws/build/explorer_gazebo
+[2.234s] -- Install configuration: ""
+[2.237s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo//models
+[2.237s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo//models/turtlebot3_burger
+[2.237s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo//models/turtlebot3_burger/model.config
+[2.237s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo//models/turtlebot3_burger/model-1_4.sdf
+[2.237s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo//models/turtlebot3_burger/model.sdf
+[2.237s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo//models/turtlebot3_burger/meshes
+[2.237s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo//models/turtlebot3_burger/meshes/burger_base.dae
+[2.237s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo//models/turtlebot3_burger/meshes/tire.dae
+[2.238s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo//models/turtlebot3_burger/meshes/lds.dae
+[2.238s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo//models/map10
+[2.238s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo//models/map10/map10.sdf
+[2.239s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo//models/map10/model.config
+[2.240s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo//models/map6
+[2.240s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo//models/map6/model.config
+[2.240s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo//models/map6/map6.sdf
+[2.240s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo//models/map2
+[2.240s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo//models/map2/model.config
+[2.240s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo//models/map2/map2.sdf
+[2.240s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo//models/map9
+[2.240s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo//models/map9/model.config
+[2.244s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo//models/map9/map9.sdf
+[2.245s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo//models/map8
+[2.245s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo//models/map8/model.config
+[2.245s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo//models/map8/map8.sdf
+[2.245s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo//models/map5
+[2.246s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo//models/map5/map5.sdf
+[2.246s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo//models/map5/model.config
+[2.246s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo//models/map7
+[2.246s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo//models/map7/model.config
+[2.246s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo//models/map7/map7.sdf
+[2.247s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo//models/map3
+[2.247s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo//models/map3/model.config
+[2.247s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo//models/map3/map3.sdf
+[2.249s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo//models/map1
+[2.250s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo//models/map1/map1.sdf
+[2.251s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo//models/map1/model.config
+[2.251s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo//models/map4
+[2.252s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo//models/map4/map4.sdf
+[2.253s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo//models/map4/model.config
+[2.254s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo//models/map11
+[2.256s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo//models/map11/map11.sdf
+[2.256s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo//models/map11/model.config
+[2.256s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo//worlds
+[2.256s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo//worlds/map2.world
+[2.256s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo//worlds/map8.world.xml
+[2.256s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo//worlds/map9.world.xml
+[2.256s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo//worlds/turtlebot3_house.world.xml
+[2.257s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo//worlds/map2.world.xml
+[2.257s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo//worlds/map7.world.xml
+[2.257s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo//worlds/map11.world.xml
+[2.257s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo//worlds/map3.world.xml
+[2.257s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo//worlds/map5.world.xml
+[2.257s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo//worlds/house.world.xml
+[2.257s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo//worlds/map4.world.xml
+[2.257s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo//worlds/map1.world.xml
+[2.258s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo//worlds/map6.world.xml
+[2.258s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo//worlds/map10.world.xml
+[2.258s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo//maps
+[2.258s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo//maps/map6.csv
+[2.258s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo//maps/map4.csv
+[2.258s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo//maps/map9.csv
+[2.258s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo//maps/map11.csv
+[2.258s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo//maps/map10.csv
+[2.258s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo//maps/map1.csv
+[2.259s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo//maps/map8.csv
+[2.259s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo//maps/map3.csv
+[2.259s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo//maps/map5.csv
+[2.259s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo//maps/map7.csv
+[2.259s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo//maps/map2.csv
+[2.259s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/ament_index/resource_index/package_run_dependencies/explorer_gazebo
+[2.264s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/ament_index/resource_index/parent_prefix_path/explorer_gazebo
+[2.264s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo/environment/ament_prefix_path.sh
+[2.264s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo/environment/ament_prefix_path.dsv
+[2.264s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo/environment/path.sh
+[2.264s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo/environment/path.dsv
+[2.266s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo/local_setup.bash
+[2.266s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo/local_setup.sh
+[2.266s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo/local_setup.zsh
+[2.267s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo/local_setup.dsv
+[2.268s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo/package.dsv
+[2.268s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/ament_index/resource_index/packages/explorer_gazebo
+[2.268s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo/cmake/explorer_gazeboConfig.cmake
+[2.269s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo/cmake/explorer_gazeboConfig-version.cmake
+[2.269s] -- Installing: /home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo/package.xml
+[2.270s] Invoked command in '/home/songdavid/ff_ws/build/explorer_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/songdavid/ff_ws/install/autonomous_exploration:/home/songdavid/turtlebot3_ws/install/explorer_bringup:/home/songdavid/turtlebot3_ws/install/turtlebot3_teleop:/home/songdavid/turtlebot3_ws/install/turtlebot3_example:/home/songdavid/turtlebot3_ws/install/explorer_wanderer:/home/songdavid/turtlebot3_ws/install/explorer_map_utils:/home/songdavid/turtlebot3_ws/install/exploration_pkg:/opt/ros/humble /usr/bin/cmake --install /home/songdavid/ff_ws/build/explorer_gazebo

@@ -1,0 +1,5 @@
+lookahead_distance : 0.24 #전방 확인 거리
+speed : 0.4 #최대 속도
+expansion_size : 3 #장벽(벽) 확장 계수
+target_error : 0.15 #목표지점 오차 허용치
+robot_r : 0.3 #로컬 안전 확보용 로봇 거리

@@ -1,0 +1,488 @@
+[0.120s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.120s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x712ac884da50>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x712ac884cca0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x712ac884cca0>>, mixin_verb=('build',))
+[0.287s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.287s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.287s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.287s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.287s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.287s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.287s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/songdavid/ff_ws'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration) by extensions ['ignore', 'ignore_ament_install']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration) by extension 'ignore'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration) by extension 'ignore_ament_install'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration) by extensions ['colcon_pkg']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration) by extension 'colcon_pkg'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration) by extensions ['colcon_meta']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration) by extension 'colcon_meta'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration) by extensions ['ros']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration) by extension 'ros'
+[0.302s] DEBUG:colcon.colcon_core.package_identification:Package 'src/autonomous_exploration' with type 'ros.ament_python' and name 'autonomous_exploration'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer) by extensions ['ignore', 'ignore_ament_install']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer) by extension 'ignore'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer) by extension 'ignore_ament_install'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer) by extensions ['colcon_pkg']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer) by extension 'colcon_pkg'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer) by extensions ['colcon_meta']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer) by extension 'colcon_meta'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer) by extensions ['ros']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer) by extension 'ros'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer) by extensions ['cmake', 'python']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer) by extension 'cmake'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer) by extension 'python'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer) by extensions ['python_setup_py']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer) by extension 'python_setup_py'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_bringup) by extension 'ignore'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_bringup) by extension 'ignore_ament_install'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_bringup) by extensions ['colcon_pkg']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_bringup) by extension 'colcon_pkg'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_bringup) by extensions ['colcon_meta']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_bringup) by extension 'colcon_meta'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_bringup) by extensions ['ros']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_bringup) by extension 'ros'
+[0.304s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_explorer/explorer_bringup' with type 'ros.ament_python' and name 'explorer_bringup'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_cartographer) by extensions ['ignore', 'ignore_ament_install']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_cartographer) by extension 'ignore'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_cartographer) by extension 'ignore_ament_install'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_cartographer) by extensions ['colcon_pkg']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_cartographer) by extension 'colcon_pkg'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_cartographer) by extensions ['colcon_meta']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_cartographer) by extension 'colcon_meta'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_cartographer) by extensions ['ros']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_cartographer) by extension 'ros'
+[0.305s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_explorer/explorer_cartographer' with type 'ros.ament_cmake' and name 'explorer_cartographer'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_gazebo) by extension 'ignore'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_gazebo) by extension 'ignore_ament_install'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_gazebo) by extensions ['colcon_pkg']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_gazebo) by extension 'colcon_pkg'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_gazebo) by extensions ['colcon_meta']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_gazebo) by extension 'colcon_meta'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_gazebo) by extensions ['ros']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_gazebo) by extension 'ros'
+[0.307s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_explorer/explorer_gazebo' with type 'ros.ament_cmake' and name 'explorer_gazebo'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_interfaces) by extension 'ignore'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_interfaces) by extension 'ignore_ament_install'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_interfaces) by extensions ['colcon_pkg']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_interfaces) by extension 'colcon_pkg'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_interfaces) by extensions ['colcon_meta']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_interfaces) by extension 'colcon_meta'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_interfaces) by extensions ['ros']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_interfaces) by extension 'ros'
+[0.308s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_explorer/explorer_interfaces' with type 'ros.ament_cmake' and name 'explorer_interfaces'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_map_utils) by extensions ['ignore', 'ignore_ament_install']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_map_utils) by extension 'ignore'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_map_utils) by extension 'ignore_ament_install'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_map_utils) by extensions ['colcon_pkg']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_map_utils) by extension 'colcon_pkg'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_map_utils) by extensions ['colcon_meta']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_map_utils) by extension 'colcon_meta'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_map_utils) by extensions ['ros']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_map_utils) by extension 'ros'
+[0.310s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_explorer/explorer_map_utils' with type 'ros.ament_python' and name 'explorer_map_utils'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_wanderer) by extensions ['ignore', 'ignore_ament_install']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_wanderer) by extension 'ignore'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_wanderer) by extension 'ignore_ament_install'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_wanderer) by extensions ['colcon_pkg']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_wanderer) by extension 'colcon_pkg'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_wanderer) by extensions ['colcon_meta']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_wanderer) by extension 'colcon_meta'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_wanderer) by extensions ['ros']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_wanderer) by extension 'ros'
+[0.310s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_explorer/explorer_wanderer' with type 'ros.ament_python' and name 'explorer_wanderer'
+[0.311s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.311s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.311s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.311s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.311s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.341s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.341s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.344s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/songdavid/ff_ws/install
+[0.345s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 22 installed packages in /home/songdavid/turtlebot3_ws/install
+[0.346s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 410 installed packages in /opt/ros/humble
+[0.349s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'autonomous_exploration' build argument 'cmake_args' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'autonomous_exploration' build argument 'cmake_target' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'autonomous_exploration' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'autonomous_exploration' build argument 'cmake_clean_cache' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'autonomous_exploration' build argument 'cmake_clean_first' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'autonomous_exploration' build argument 'cmake_force_configure' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'autonomous_exploration' build argument 'ament_cmake_args' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'autonomous_exploration' build argument 'catkin_cmake_args' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'autonomous_exploration' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.397s] DEBUG:colcon.colcon_core.verb:Building package 'autonomous_exploration' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/songdavid/ff_ws/build/autonomous_exploration', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/songdavid/ff_ws/install/autonomous_exploration', 'merge_install': False, 'path': '/home/songdavid/ff_ws/src/autonomous_exploration', 'symlink_install': False, 'test_result_base': None}
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'explorer_bringup' build argument 'cmake_args' from command line to 'None'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'explorer_bringup' build argument 'cmake_target' from command line to 'None'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'explorer_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'explorer_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'explorer_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'explorer_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'explorer_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'explorer_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'explorer_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.397s] DEBUG:colcon.colcon_core.verb:Building package 'explorer_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/songdavid/ff_ws/build/explorer_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/songdavid/ff_ws/install/explorer_bringup', 'merge_install': False, 'path': '/home/songdavid/ff_ws/src/ros2_explorer/explorer_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'explorer_cartographer' build argument 'cmake_args' from command line to 'None'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'explorer_cartographer' build argument 'cmake_target' from command line to 'None'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'explorer_cartographer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'explorer_cartographer' build argument 'cmake_clean_cache' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'explorer_cartographer' build argument 'cmake_clean_first' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'explorer_cartographer' build argument 'cmake_force_configure' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'explorer_cartographer' build argument 'ament_cmake_args' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'explorer_cartographer' build argument 'catkin_cmake_args' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'explorer_cartographer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.398s] DEBUG:colcon.colcon_core.verb:Building package 'explorer_cartographer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/songdavid/ff_ws/build/explorer_cartographer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/songdavid/ff_ws/install/explorer_cartographer', 'merge_install': False, 'path': '/home/songdavid/ff_ws/src/ros2_explorer/explorer_cartographer', 'symlink_install': False, 'test_result_base': None}
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'explorer_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'explorer_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'explorer_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'explorer_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'explorer_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'explorer_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'explorer_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'explorer_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'explorer_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.398s] DEBUG:colcon.colcon_core.verb:Building package 'explorer_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/songdavid/ff_ws/build/explorer_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/songdavid/ff_ws/install/explorer_gazebo', 'merge_install': False, 'path': '/home/songdavid/ff_ws/src/ros2_explorer/explorer_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'explorer_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'explorer_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'explorer_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'explorer_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'explorer_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'explorer_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'explorer_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'explorer_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'explorer_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.399s] DEBUG:colcon.colcon_core.verb:Building package 'explorer_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/songdavid/ff_ws/build/explorer_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/songdavid/ff_ws/install/explorer_interfaces', 'merge_install': False, 'path': '/home/songdavid/ff_ws/src/ros2_explorer/explorer_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'explorer_map_utils' build argument 'cmake_args' from command line to 'None'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'explorer_map_utils' build argument 'cmake_target' from command line to 'None'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'explorer_map_utils' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'explorer_map_utils' build argument 'cmake_clean_cache' from command line to 'False'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'explorer_map_utils' build argument 'cmake_clean_first' from command line to 'False'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'explorer_map_utils' build argument 'cmake_force_configure' from command line to 'False'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'explorer_map_utils' build argument 'ament_cmake_args' from command line to 'None'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'explorer_map_utils' build argument 'catkin_cmake_args' from command line to 'None'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'explorer_map_utils' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.399s] DEBUG:colcon.colcon_core.verb:Building package 'explorer_map_utils' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/songdavid/ff_ws/build/explorer_map_utils', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/songdavid/ff_ws/install/explorer_map_utils', 'merge_install': False, 'path': '/home/songdavid/ff_ws/src/ros2_explorer/explorer_map_utils', 'symlink_install': False, 'test_result_base': None}
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'explorer_wanderer' build argument 'cmake_args' from command line to 'None'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'explorer_wanderer' build argument 'cmake_target' from command line to 'None'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'explorer_wanderer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'explorer_wanderer' build argument 'cmake_clean_cache' from command line to 'False'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'explorer_wanderer' build argument 'cmake_clean_first' from command line to 'False'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'explorer_wanderer' build argument 'cmake_force_configure' from command line to 'False'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'explorer_wanderer' build argument 'ament_cmake_args' from command line to 'None'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'explorer_wanderer' build argument 'catkin_cmake_args' from command line to 'None'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'explorer_wanderer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.400s] DEBUG:colcon.colcon_core.verb:Building package 'explorer_wanderer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/songdavid/ff_ws/build/explorer_wanderer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/songdavid/ff_ws/install/explorer_wanderer', 'merge_install': False, 'path': '/home/songdavid/ff_ws/src/ros2_explorer/explorer_wanderer', 'symlink_install': False, 'test_result_base': None}
+[0.400s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.401s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.401s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/songdavid/ff_ws/src/autonomous_exploration' with build type 'ament_python'
+[0.402s] Level 1:colcon.colcon_core.shell:create_environment_hook('autonomous_exploration', 'ament_prefix_path')
+[0.404s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.404s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/songdavid/ff_ws/install/autonomous_exploration/share/autonomous_exploration/hook/ament_prefix_path.ps1'
+[0.405s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/songdavid/ff_ws/install/autonomous_exploration/share/autonomous_exploration/hook/ament_prefix_path.dsv'
+[0.405s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/songdavid/ff_ws/install/autonomous_exploration/share/autonomous_exploration/hook/ament_prefix_path.sh'
+[0.406s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.406s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.411s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/songdavid/ff_ws/src/ros2_explorer/explorer_bringup' with build type 'ament_python'
+[0.411s] Level 1:colcon.colcon_core.shell:create_environment_hook('explorer_bringup', 'ament_prefix_path')
+[0.411s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/songdavid/ff_ws/install/explorer_bringup/share/explorer_bringup/hook/ament_prefix_path.ps1'
+[0.412s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/songdavid/ff_ws/install/explorer_bringup/share/explorer_bringup/hook/ament_prefix_path.dsv'
+[0.413s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/songdavid/ff_ws/install/explorer_bringup/share/explorer_bringup/hook/ament_prefix_path.sh'
+[0.413s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.413s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.418s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/songdavid/ff_ws/src/ros2_explorer/explorer_cartographer' with build type 'ament_cmake'
+[0.418s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/songdavid/ff_ws/src/ros2_explorer/explorer_cartographer'
+[0.419s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.419s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.424s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/songdavid/ff_ws/src/ros2_explorer/explorer_gazebo' with build type 'ament_cmake'
+[0.424s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/songdavid/ff_ws/src/ros2_explorer/explorer_gazebo'
+[0.424s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.424s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.429s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/songdavid/ff_ws/src/ros2_explorer/explorer_interfaces' with build type 'ament_cmake'
+[0.430s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/songdavid/ff_ws/src/ros2_explorer/explorer_interfaces'
+[0.430s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.430s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.436s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/songdavid/ff_ws/src/ros2_explorer/explorer_map_utils' with build type 'ament_python'
+[0.436s] Level 1:colcon.colcon_core.shell:create_environment_hook('explorer_map_utils', 'ament_prefix_path')
+[0.437s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/songdavid/ff_ws/install/explorer_map_utils/share/explorer_map_utils/hook/ament_prefix_path.ps1'
+[0.438s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/songdavid/ff_ws/install/explorer_map_utils/share/explorer_map_utils/hook/ament_prefix_path.dsv'
+[0.438s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/songdavid/ff_ws/install/explorer_map_utils/share/explorer_map_utils/hook/ament_prefix_path.sh'
+[0.439s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.439s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.443s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/songdavid/ff_ws/src/ros2_explorer/explorer_wanderer' with build type 'ament_python'
+[0.444s] Level 1:colcon.colcon_core.shell:create_environment_hook('explorer_wanderer', 'ament_prefix_path')
+[0.444s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/songdavid/ff_ws/install/explorer_wanderer/share/explorer_wanderer/hook/ament_prefix_path.ps1'
+[0.444s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/songdavid/ff_ws/install/explorer_wanderer/share/explorer_wanderer/hook/ament_prefix_path.dsv'
+[0.445s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/songdavid/ff_ws/install/explorer_wanderer/share/explorer_wanderer/hook/ament_prefix_path.sh'
+[0.446s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.446s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.713s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/songdavid/ff_ws/src/autonomous_exploration'
+[0.714s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.714s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.983s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/songdavid/ff_ws/src/ros2_explorer/explorer_bringup'
+[0.983s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.983s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.993s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/songdavid/ff_ws/build/explorer_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/songdavid/ff_ws/install/explorer_wanderer:/home/songdavid/ff_ws/install/explorer_map_utils:/home/songdavid/ff_ws/install/explorer_bringup:/home/songdavid/ff_ws/install/autonomous_exploration:/home/songdavid/turtlebot3_ws/install/explorer_bringup:/home/songdavid/turtlebot3_ws/install/turtlebot3_teleop:/home/songdavid/turtlebot3_ws/install/turtlebot3_example:/home/songdavid/turtlebot3_ws/install/explorer_wanderer:/home/songdavid/turtlebot3_ws/install/explorer_map_utils:/home/songdavid/turtlebot3_ws/install/exploration_pkg:/opt/ros/humble /usr/bin/cmake --build /home/songdavid/ff_ws/build/explorer_cartographer -- -j8 -l8
+[0.996s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/songdavid/ff_ws/build/explorer_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/songdavid/ff_ws/install/explorer_wanderer:/home/songdavid/ff_ws/install/explorer_map_utils:/home/songdavid/ff_ws/install/explorer_bringup:/home/songdavid/ff_ws/install/autonomous_exploration:/home/songdavid/turtlebot3_ws/install/explorer_bringup:/home/songdavid/turtlebot3_ws/install/turtlebot3_teleop:/home/songdavid/turtlebot3_ws/install/turtlebot3_example:/home/songdavid/turtlebot3_ws/install/explorer_wanderer:/home/songdavid/turtlebot3_ws/install/explorer_map_utils:/home/songdavid/turtlebot3_ws/install/exploration_pkg:/opt/ros/humble /usr/bin/cmake --build /home/songdavid/ff_ws/build/explorer_gazebo -- -j8 -l8
+[0.999s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/songdavid/ff_ws/build/explorer_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/songdavid/ff_ws/install/explorer_wanderer:/home/songdavid/ff_ws/install/explorer_map_utils:/home/songdavid/ff_ws/install/explorer_bringup:/home/songdavid/ff_ws/install/autonomous_exploration:/home/songdavid/turtlebot3_ws/install/explorer_bringup:/home/songdavid/turtlebot3_ws/install/turtlebot3_teleop:/home/songdavid/turtlebot3_ws/install/turtlebot3_example:/home/songdavid/turtlebot3_ws/install/explorer_wanderer:/home/songdavid/turtlebot3_ws/install/explorer_map_utils:/home/songdavid/turtlebot3_ws/install/exploration_pkg:/opt/ros/humble /usr/bin/cmake --build /home/songdavid/ff_ws/build/explorer_interfaces -- -j8 -l8
+[1.327s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/songdavid/ff_ws/src/ros2_explorer/explorer_map_utils'
+[1.327s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.327s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.605s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/songdavid/ff_ws/src/ros2_explorer/explorer_wanderer'
+[1.606s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.606s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.613s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/songdavid/ff_ws/build/explorer_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/songdavid/ff_ws/install/explorer_wanderer:/home/songdavid/ff_ws/install/explorer_map_utils:/home/songdavid/ff_ws/install/explorer_bringup:/home/songdavid/ff_ws/install/autonomous_exploration:/home/songdavid/turtlebot3_ws/install/explorer_bringup:/home/songdavid/turtlebot3_ws/install/turtlebot3_teleop:/home/songdavid/turtlebot3_ws/install/turtlebot3_example:/home/songdavid/turtlebot3_ws/install/explorer_wanderer:/home/songdavid/turtlebot3_ws/install/explorer_map_utils:/home/songdavid/turtlebot3_ws/install/exploration_pkg:/opt/ros/humble /usr/bin/cmake --build /home/songdavid/ff_ws/build/explorer_cartographer -- -j8 -l8
+[1.623s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/songdavid/ff_ws/build/explorer_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/songdavid/ff_ws/install/explorer_wanderer:/home/songdavid/ff_ws/install/explorer_map_utils:/home/songdavid/ff_ws/install/explorer_bringup:/home/songdavid/ff_ws/install/autonomous_exploration:/home/songdavid/turtlebot3_ws/install/explorer_bringup:/home/songdavid/turtlebot3_ws/install/turtlebot3_teleop:/home/songdavid/turtlebot3_ws/install/turtlebot3_example:/home/songdavid/turtlebot3_ws/install/explorer_wanderer:/home/songdavid/turtlebot3_ws/install/explorer_map_utils:/home/songdavid/turtlebot3_ws/install/exploration_pkg:/opt/ros/humble /usr/bin/cmake --install /home/songdavid/ff_ws/build/explorer_cartographer
+[1.624s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/songdavid/ff_ws/build/explorer_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/songdavid/ff_ws/install/explorer_wanderer:/home/songdavid/ff_ws/install/explorer_map_utils:/home/songdavid/ff_ws/install/explorer_bringup:/home/songdavid/ff_ws/install/autonomous_exploration:/home/songdavid/turtlebot3_ws/install/explorer_bringup:/home/songdavid/turtlebot3_ws/install/turtlebot3_teleop:/home/songdavid/turtlebot3_ws/install/turtlebot3_example:/home/songdavid/turtlebot3_ws/install/explorer_wanderer:/home/songdavid/turtlebot3_ws/install/explorer_map_utils:/home/songdavid/turtlebot3_ws/install/exploration_pkg:/opt/ros/humble /usr/bin/cmake --build /home/songdavid/ff_ws/build/explorer_gazebo -- -j8 -l8
+[1.625s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/songdavid/ff_ws/build/explorer_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/songdavid/ff_ws/install/explorer_wanderer:/home/songdavid/ff_ws/install/explorer_map_utils:/home/songdavid/ff_ws/install/explorer_bringup:/home/songdavid/ff_ws/install/autonomous_exploration:/home/songdavid/turtlebot3_ws/install/explorer_bringup:/home/songdavid/turtlebot3_ws/install/turtlebot3_teleop:/home/songdavid/turtlebot3_ws/install/turtlebot3_example:/home/songdavid/turtlebot3_ws/install/explorer_wanderer:/home/songdavid/turtlebot3_ws/install/explorer_map_utils:/home/songdavid/turtlebot3_ws/install/exploration_pkg:/opt/ros/humble /usr/bin/cmake --install /home/songdavid/ff_ws/build/explorer_gazebo
+[1.631s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/songdavid/ff_ws/build/explorer_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/songdavid/ff_ws/install/explorer_wanderer:/home/songdavid/ff_ws/install/explorer_map_utils:/home/songdavid/ff_ws/install/explorer_bringup:/home/songdavid/ff_ws/install/autonomous_exploration:/home/songdavid/turtlebot3_ws/install/explorer_bringup:/home/songdavid/turtlebot3_ws/install/turtlebot3_teleop:/home/songdavid/turtlebot3_ws/install/turtlebot3_example:/home/songdavid/turtlebot3_ws/install/explorer_wanderer:/home/songdavid/turtlebot3_ws/install/explorer_map_utils:/home/songdavid/turtlebot3_ws/install/exploration_pkg:/opt/ros/humble /usr/bin/cmake --build /home/songdavid/ff_ws/build/explorer_interfaces -- -j8 -l8
+[1.638s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/songdavid/ff_ws/build/explorer_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/songdavid/ff_ws/install/explorer_wanderer:/home/songdavid/ff_ws/install/explorer_map_utils:/home/songdavid/ff_ws/install/explorer_bringup:/home/songdavid/ff_ws/install/autonomous_exploration:/home/songdavid/turtlebot3_ws/install/explorer_bringup:/home/songdavid/turtlebot3_ws/install/turtlebot3_teleop:/home/songdavid/turtlebot3_ws/install/turtlebot3_example:/home/songdavid/turtlebot3_ws/install/explorer_wanderer:/home/songdavid/turtlebot3_ws/install/explorer_map_utils:/home/songdavid/turtlebot3_ws/install/exploration_pkg:/opt/ros/humble /usr/bin/cmake --install /home/songdavid/ff_ws/build/explorer_interfaces
+[1.653s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(explorer_gazebo)
+[1.674s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/songdavid/ff_ws/build/explorer_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/songdavid/ff_ws/install/explorer_wanderer:/home/songdavid/ff_ws/install/explorer_map_utils:/home/songdavid/ff_ws/install/explorer_bringup:/home/songdavid/ff_ws/install/autonomous_exploration:/home/songdavid/turtlebot3_ws/install/explorer_bringup:/home/songdavid/turtlebot3_ws/install/turtlebot3_teleop:/home/songdavid/turtlebot3_ws/install/turtlebot3_example:/home/songdavid/turtlebot3_ws/install/explorer_wanderer:/home/songdavid/turtlebot3_ws/install/explorer_map_utils:/home/songdavid/turtlebot3_ws/install/exploration_pkg:/opt/ros/humble /usr/bin/cmake --install /home/songdavid/ff_ws/build/explorer_gazebo
+[1.675s] Level 1:colcon.colcon_core.environment:checking '/home/songdavid/ff_ws/install/explorer_gazebo' for CMake module files
+[1.676s] Level 1:colcon.colcon_core.environment:checking '/home/songdavid/ff_ws/install/explorer_gazebo' for CMake config files
+[1.677s] Level 1:colcon.colcon_core.shell:create_environment_hook('explorer_gazebo', 'cmake_prefix_path')
+[1.677s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo/hook/cmake_prefix_path.ps1'
+[1.678s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo/hook/cmake_prefix_path.dsv'
+[1.679s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo/hook/cmake_prefix_path.sh'
+[1.680s] Level 1:colcon.colcon_core.environment:checking '/home/songdavid/ff_ws/install/explorer_gazebo/bin'
+[1.680s] Level 1:colcon.colcon_core.environment:checking '/home/songdavid/ff_ws/install/explorer_gazebo/lib/pkgconfig/explorer_gazebo.pc'
+[1.680s] Level 1:colcon.colcon_core.environment:checking '/home/songdavid/ff_ws/install/explorer_gazebo/lib/python3.10/site-packages'
+[1.681s] Level 1:colcon.colcon_core.environment:checking '/home/songdavid/ff_ws/install/explorer_gazebo/bin'
+[1.681s] INFO:colcon.colcon_core.shell:Creating package script '/home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo/package.ps1'
+[1.683s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo/package.dsv'
+[1.684s] INFO:colcon.colcon_core.shell:Creating package script '/home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo/package.sh'
+[1.685s] INFO:colcon.colcon_core.shell:Creating package script '/home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo/package.bash'
+[1.687s] INFO:colcon.colcon_core.shell:Creating package script '/home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo/package.zsh'
+[1.688s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/songdavid/ff_ws/install/explorer_gazebo/share/colcon-core/packages/explorer_gazebo)
+[1.689s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(explorer_gazebo)
+[1.689s] Level 1:colcon.colcon_core.environment:checking '/home/songdavid/ff_ws/install/explorer_gazebo' for CMake module files
+[1.690s] Level 1:colcon.colcon_core.environment:checking '/home/songdavid/ff_ws/install/explorer_gazebo' for CMake config files
+[1.691s] Level 1:colcon.colcon_core.shell:create_environment_hook('explorer_gazebo', 'cmake_prefix_path')
+[1.691s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo/hook/cmake_prefix_path.ps1'
+[1.692s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo/hook/cmake_prefix_path.dsv'
+[1.693s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo/hook/cmake_prefix_path.sh'
+[1.694s] Level 1:colcon.colcon_core.environment:checking '/home/songdavid/ff_ws/install/explorer_gazebo/bin'
+[1.694s] Level 1:colcon.colcon_core.environment:checking '/home/songdavid/ff_ws/install/explorer_gazebo/lib/pkgconfig/explorer_gazebo.pc'
+[1.694s] Level 1:colcon.colcon_core.environment:checking '/home/songdavid/ff_ws/install/explorer_gazebo/lib/python3.10/site-packages'
+[1.694s] Level 1:colcon.colcon_core.environment:checking '/home/songdavid/ff_ws/install/explorer_gazebo/bin'
+[1.695s] INFO:colcon.colcon_core.shell:Creating package script '/home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo/package.ps1'
+[1.696s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo/package.dsv'
+[1.697s] INFO:colcon.colcon_core.shell:Creating package script '/home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo/package.sh'
+[1.698s] INFO:colcon.colcon_core.shell:Creating package script '/home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo/package.bash'
+[1.698s] INFO:colcon.colcon_core.shell:Creating package script '/home/songdavid/ff_ws/install/explorer_gazebo/share/explorer_gazebo/package.zsh'
+[1.699s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/songdavid/ff_ws/install/explorer_gazebo/share/colcon-core/packages/explorer_gazebo)
+[1.700s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(explorer_cartographer)
+[1.700s] Level 1:colcon.colcon_core.environment:checking '/home/songdavid/ff_ws/install/explorer_cartographer' for CMake module files
+[1.701s] Level 1:colcon.colcon_core.environment:checking '/home/songdavid/ff_ws/install/explorer_cartographer' for CMake config files
+[1.702s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/songdavid/ff_ws/build/explorer_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/songdavid/ff_ws/install/explorer_wanderer:/home/songdavid/ff_ws/install/explorer_map_utils:/home/songdavid/ff_ws/install/explorer_bringup:/home/songdavid/ff_ws/install/autonomous_exploration:/home/songdavid/turtlebot3_ws/install/explorer_bringup:/home/songdavid/turtlebot3_ws/install/turtlebot3_teleop:/home/songdavid/turtlebot3_ws/install/turtlebot3_example:/home/songdavid/turtlebot3_ws/install/explorer_wanderer:/home/songdavid/turtlebot3_ws/install/explorer_map_utils:/home/songdavid/turtlebot3_ws/install/exploration_pkg:/opt/ros/humble /usr/bin/cmake --install /home/songdavid/ff_ws/build/explorer_cartographer
+[1.703s] Level 1:colcon.colcon_core.shell:create_environment_hook('explorer_cartographer', 'cmake_prefix_path')
+[1.703s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/songdavid/ff_ws/install/explorer_cartographer/share/explorer_cartographer/hook/cmake_prefix_path.ps1'
+[1.704s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/songdavid/ff_ws/install/explorer_cartographer/share/explorer_cartographer/hook/cmake_prefix_path.dsv'
+[1.705s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/songdavid/ff_ws/install/explorer_cartographer/share/explorer_cartographer/hook/cmake_prefix_path.sh'
+[1.706s] Level 1:colcon.colcon_core.environment:checking '/home/songdavid/ff_ws/install/explorer_cartographer/bin'
+[1.706s] Level 1:colcon.colcon_core.environment:checking '/home/songdavid/ff_ws/install/explorer_cartographer/lib/pkgconfig/explorer_cartographer.pc'
+[1.706s] Level 1:colcon.colcon_core.environment:checking '/home/songdavid/ff_ws/install/explorer_cartographer/lib/python3.10/site-packages'
+[1.707s] Level 1:colcon.colcon_core.environment:checking '/home/songdavid/ff_ws/install/explorer_cartographer/bin'
+[1.707s] INFO:colcon.colcon_core.shell:Creating package script '/home/songdavid/ff_ws/install/explorer_cartographer/share/explorer_cartographer/package.ps1'
+[1.708s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/songdavid/ff_ws/install/explorer_cartographer/share/explorer_cartographer/package.dsv'
+[1.709s] INFO:colcon.colcon_core.shell:Creating package script '/home/songdavid/ff_ws/install/explorer_cartographer/share/explorer_cartographer/package.sh'
+[1.710s] INFO:colcon.colcon_core.shell:Creating package script '/home/songdavid/ff_ws/install/explorer_cartographer/share/explorer_cartographer/package.bash'
+[1.711s] INFO:colcon.colcon_core.shell:Creating package script '/home/songdavid/ff_ws/install/explorer_cartographer/share/explorer_cartographer/package.zsh'
+[1.711s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/songdavid/ff_ws/install/explorer_cartographer/share/colcon-core/packages/explorer_cartographer)
+[1.712s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(explorer_cartographer)
+[1.713s] Level 1:colcon.colcon_core.environment:checking '/home/songdavid/ff_ws/install/explorer_cartographer' for CMake module files
+[1.714s] Level 1:colcon.colcon_core.environment:checking '/home/songdavid/ff_ws/install/explorer_cartographer' for CMake config files
+[1.714s] Level 1:colcon.colcon_core.shell:create_environment_hook('explorer_cartographer', 'cmake_prefix_path')
+[1.715s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/songdavid/ff_ws/install/explorer_cartographer/share/explorer_cartographer/hook/cmake_prefix_path.ps1'
+[1.715s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/songdavid/ff_ws/install/explorer_cartographer/share/explorer_cartographer/hook/cmake_prefix_path.dsv'
+[1.716s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/songdavid/ff_ws/install/explorer_cartographer/share/explorer_cartographer/hook/cmake_prefix_path.sh'
+[1.717s] Level 1:colcon.colcon_core.environment:checking '/home/songdavid/ff_ws/install/explorer_cartographer/bin'
+[1.717s] Level 1:colcon.colcon_core.environment:checking '/home/songdavid/ff_ws/install/explorer_cartographer/lib/pkgconfig/explorer_cartographer.pc'
+[1.718s] Level 1:colcon.colcon_core.environment:checking '/home/songdavid/ff_ws/install/explorer_cartographer/lib/python3.10/site-packages'
+[1.718s] Level 1:colcon.colcon_core.environment:checking '/home/songdavid/ff_ws/install/explorer_cartographer/bin'
+[1.719s] INFO:colcon.colcon_core.shell:Creating package script '/home/songdavid/ff_ws/install/explorer_cartographer/share/explorer_cartographer/package.ps1'
+[1.720s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/songdavid/ff_ws/install/explorer_cartographer/share/explorer_cartographer/package.dsv'
+[1.721s] INFO:colcon.colcon_core.shell:Creating package script '/home/songdavid/ff_ws/install/explorer_cartographer/share/explorer_cartographer/package.sh'
+[1.722s] INFO:colcon.colcon_core.shell:Creating package script '/home/songdavid/ff_ws/install/explorer_cartographer/share/explorer_cartographer/package.bash'
+[1.723s] INFO:colcon.colcon_core.shell:Creating package script '/home/songdavid/ff_ws/install/explorer_cartographer/share/explorer_cartographer/package.zsh'
+[1.723s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/songdavid/ff_ws/install/explorer_cartographer/share/colcon-core/packages/explorer_cartographer)
+[1.737s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(explorer_interfaces)
+[1.738s] Level 1:colcon.colcon_core.environment:checking '/home/songdavid/ff_ws/install/explorer_interfaces' for CMake module files
+[1.739s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/songdavid/ff_ws/build/explorer_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/songdavid/ff_ws/install/explorer_wanderer:/home/songdavid/ff_ws/install/explorer_map_utils:/home/songdavid/ff_ws/install/explorer_bringup:/home/songdavid/ff_ws/install/autonomous_exploration:/home/songdavid/turtlebot3_ws/install/explorer_bringup:/home/songdavid/turtlebot3_ws/install/turtlebot3_teleop:/home/songdavid/turtlebot3_ws/install/turtlebot3_example:/home/songdavid/turtlebot3_ws/install/explorer_wanderer:/home/songdavid/turtlebot3_ws/install/explorer_map_utils:/home/songdavid/turtlebot3_ws/install/exploration_pkg:/opt/ros/humble /usr/bin/cmake --install /home/songdavid/ff_ws/build/explorer_interfaces
+[1.740s] Level 1:colcon.colcon_core.environment:checking '/home/songdavid/ff_ws/install/explorer_interfaces' for CMake config files
+[1.740s] Level 1:colcon.colcon_core.shell:create_environment_hook('explorer_interfaces', 'cmake_prefix_path')
+[1.741s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/songdavid/ff_ws/install/explorer_interfaces/share/explorer_interfaces/hook/cmake_prefix_path.ps1'
+[1.741s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/songdavid/ff_ws/install/explorer_interfaces/share/explorer_interfaces/hook/cmake_prefix_path.dsv'
+[1.742s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/songdavid/ff_ws/install/explorer_interfaces/share/explorer_interfaces/hook/cmake_prefix_path.sh'
+[1.743s] Level 1:colcon.colcon_core.environment:checking '/home/songdavid/ff_ws/install/explorer_interfaces/lib'
+[1.743s] Level 1:colcon.colcon_core.shell:create_environment_hook('explorer_interfaces', 'ld_library_path_lib')
+[1.744s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/songdavid/ff_ws/install/explorer_interfaces/share/explorer_interfaces/hook/ld_library_path_lib.ps1'
+[1.744s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/songdavid/ff_ws/install/explorer_interfaces/share/explorer_interfaces/hook/ld_library_path_lib.dsv'
+[1.745s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/songdavid/ff_ws/install/explorer_interfaces/share/explorer_interfaces/hook/ld_library_path_lib.sh'
+[1.746s] Level 1:colcon.colcon_core.environment:checking '/home/songdavid/ff_ws/install/explorer_interfaces/bin'
+[1.746s] Level 1:colcon.colcon_core.environment:checking '/home/songdavid/ff_ws/install/explorer_interfaces/lib/pkgconfig/explorer_interfaces.pc'
+[1.746s] Level 1:colcon.colcon_core.environment:checking '/home/songdavid/ff_ws/install/explorer_interfaces/lib/python3.10/site-packages'
+[1.747s] Level 1:colcon.colcon_core.environment:checking '/home/songdavid/ff_ws/install/explorer_interfaces/bin'
+[1.747s] INFO:colcon.colcon_core.shell:Creating package script '/home/songdavid/ff_ws/install/explorer_interfaces/share/explorer_interfaces/package.ps1'
+[1.748s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/songdavid/ff_ws/install/explorer_interfaces/share/explorer_interfaces/package.dsv'
+[1.749s] INFO:colcon.colcon_core.shell:Creating package script '/home/songdavid/ff_ws/install/explorer_interfaces/share/explorer_interfaces/package.sh'
+[1.750s] INFO:colcon.colcon_core.shell:Creating package script '/home/songdavid/ff_ws/install/explorer_interfaces/share/explorer_interfaces/package.bash'
+[1.751s] INFO:colcon.colcon_core.shell:Creating package script '/home/songdavid/ff_ws/install/explorer_interfaces/share/explorer_interfaces/package.zsh'
+[1.751s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/songdavid/ff_ws/install/explorer_interfaces/share/colcon-core/packages/explorer_interfaces)
+[1.753s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(explorer_interfaces)
+[1.753s] Level 1:colcon.colcon_core.environment:checking '/home/songdavid/ff_ws/install/explorer_interfaces' for CMake module files
+[1.754s] Level 1:colcon.colcon_core.environment:checking '/home/songdavid/ff_ws/install/explorer_interfaces' for CMake config files
+[1.754s] Level 1:colcon.colcon_core.shell:create_environment_hook('explorer_interfaces', 'cmake_prefix_path')
+[1.755s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/songdavid/ff_ws/install/explorer_interfaces/share/explorer_interfaces/hook/cmake_prefix_path.ps1'
+[1.756s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/songdavid/ff_ws/install/explorer_interfaces/share/explorer_interfaces/hook/cmake_prefix_path.dsv'
+[1.756s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/songdavid/ff_ws/install/explorer_interfaces/share/explorer_interfaces/hook/cmake_prefix_path.sh'
+[1.757s] Level 1:colcon.colcon_core.environment:checking '/home/songdavid/ff_ws/install/explorer_interfaces/lib'
+[1.757s] Level 1:colcon.colcon_core.shell:create_environment_hook('explorer_interfaces', 'ld_library_path_lib')
+[1.758s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/songdavid/ff_ws/install/explorer_interfaces/share/explorer_interfaces/hook/ld_library_path_lib.ps1'
+[1.758s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/songdavid/ff_ws/install/explorer_interfaces/share/explorer_interfaces/hook/ld_library_path_lib.dsv'
+[1.759s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/songdavid/ff_ws/install/explorer_interfaces/share/explorer_interfaces/hook/ld_library_path_lib.sh'
+[1.760s] Level 1:colcon.colcon_core.environment:checking '/home/songdavid/ff_ws/install/explorer_interfaces/bin'
+[1.760s] Level 1:colcon.colcon_core.environment:checking '/home/songdavid/ff_ws/install/explorer_interfaces/lib/pkgconfig/explorer_interfaces.pc'
+[1.760s] Level 1:colcon.colcon_core.environment:checking '/home/songdavid/ff_ws/install/explorer_interfaces/lib/python3.10/site-packages'
+[1.761s] Level 1:colcon.colcon_core.environment:checking '/home/songdavid/ff_ws/install/explorer_interfaces/bin'
+[1.761s] INFO:colcon.colcon_core.shell:Creating package script '/home/songdavid/ff_ws/install/explorer_interfaces/share/explorer_interfaces/package.ps1'
+[1.762s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/songdavid/ff_ws/install/explorer_interfaces/share/explorer_interfaces/package.dsv'
+[1.763s] INFO:colcon.colcon_core.shell:Creating package script '/home/songdavid/ff_ws/install/explorer_interfaces/share/explorer_interfaces/package.sh'
+[1.764s] INFO:colcon.colcon_core.shell:Creating package script '/home/songdavid/ff_ws/install/explorer_interfaces/share/explorer_interfaces/package.bash'
+[1.765s] INFO:colcon.colcon_core.shell:Creating package script '/home/songdavid/ff_ws/install/explorer_interfaces/share/explorer_interfaces/package.zsh'
+[1.765s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/songdavid/ff_ws/install/explorer_interfaces/share/colcon-core/packages/explorer_interfaces)
+[2.116s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/songdavid/ff_ws/src/ros2_explorer/explorer_bringup': PYTHONPATH=/home/songdavid/ff_ws/build/explorer_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/songdavid/ff_ws/install/explorer_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/explorer_bringup build --build-base /home/songdavid/ff_ws/build/explorer_bringup/build install --record /home/songdavid/ff_ws/build/explorer_bringup/install.log --single-version-externally-managed install_data
+[2.135s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/songdavid/ff_ws/src/ros2_explorer/explorer_map_utils': PYTHONPATH=/home/songdavid/ff_ws/build/explorer_map_utils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/songdavid/ff_ws/install/explorer_map_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/explorer_map_utils build --build-base /home/songdavid/ff_ws/build/explorer_map_utils/build install --record /home/songdavid/ff_ws/build/explorer_map_utils/install.log --single-version-externally-managed install_data
+[2.142s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/songdavid/ff_ws/src/autonomous_exploration': PYTHONPATH=/home/songdavid/ff_ws/build/autonomous_exploration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/songdavid/ff_ws/install/autonomous_exploration/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autonomous_exploration build --build-base /home/songdavid/ff_ws/build/autonomous_exploration/build install --record /home/songdavid/ff_ws/build/autonomous_exploration/install.log --single-version-externally-managed install_data
+[2.156s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/songdavid/ff_ws/src/ros2_explorer/explorer_wanderer': PYTHONPATH=/home/songdavid/ff_ws/build/explorer_wanderer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/songdavid/ff_ws/install/explorer_wanderer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/explorer_wanderer build --build-base /home/songdavid/ff_ws/build/explorer_wanderer/build install --record /home/songdavid/ff_ws/build/explorer_wanderer/install.log --single-version-externally-managed install_data
+[2.523s] Level 1:colcon.colcon_core.environment:checking '/home/songdavid/ff_ws/install/explorer_bringup' for CMake module files
+[2.524s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/songdavid/ff_ws/src/ros2_explorer/explorer_bringup' returned '0': PYTHONPATH=/home/songdavid/ff_ws/build/explorer_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/songdavid/ff_ws/install/explorer_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/explorer_bringup build --build-base /home/songdavid/ff_ws/build/explorer_bringup/build install --record /home/songdavid/ff_ws/build/explorer_bringup/install.log --single-version-externally-managed install_data
+[2.525s] Level 1:colcon.colcon_core.environment:checking '/home/songdavid/ff_ws/install/explorer_bringup' for CMake config files
+[2.526s] Level 1:colcon.colcon_core.environment:checking '/home/songdavid/ff_ws/install/explorer_bringup/lib'
+[2.526s] Level 1:colcon.colcon_core.environment:checking '/home/songdavid/ff_ws/install/explorer_bringup/bin'
+[2.527s] Level 1:colcon.colcon_core.environment:checking '/home/songdavid/ff_ws/install/explorer_bringup/lib/pkgconfig/explorer_bringup.pc'
+[2.527s] Level 1:colcon.colcon_core.environment:checking '/home/songdavid/ff_ws/install/explorer_bringup/lib/python3.10/site-packages'
+[2.527s] Level 1:colcon.colcon_core.shell:create_environment_hook('explorer_bringup', 'pythonpath')
+[2.528s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/songdavid/ff_ws/install/explorer_bringup/share/explorer_bringup/hook/pythonpath.ps1'
+[2.529s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/songdavid/ff_ws/install/explorer_bringup/share/explorer_bringup/hook/pythonpath.dsv'
+[2.531s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/songdavid/ff_ws/install/explorer_bringup/share/explorer_bringup/hook/pythonpath.sh'
+[2.532s] Level 1:colcon.colcon_core.environment:checking '/home/songdavid/ff_ws/install/explorer_bringup/bin'
+[2.533s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(explorer_bringup)
+[2.534s] INFO:colcon.colcon_core.shell:Creating package script '/home/songdavid/ff_ws/install/explorer_bringup/share/explorer_bringup/package.ps1'
+[2.535s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/songdavid/ff_ws/install/explorer_bringup/share/explorer_bringup/package.dsv'
+[2.537s] INFO:colcon.colcon_core.shell:Creating package script '/home/songdavid/ff_ws/install/explorer_bringup/share/explorer_bringup/package.sh'
+[2.538s] INFO:colcon.colcon_core.shell:Creating package script '/home/songdavid/ff_ws/install/explorer_bringup/share/explorer_bringup/package.bash'
+[2.539s] INFO:colcon.colcon_core.shell:Creating package script '/home/songdavid/ff_ws/install/explorer_bringup/share/explorer_bringup/package.zsh'
+[2.540s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/songdavid/ff_ws/install/explorer_bringup/share/colcon-core/packages/explorer_bringup)
+[2.548s] Level 1:colcon.colcon_core.environment:checking '/home/songdavid/ff_ws/install/autonomous_exploration' for CMake module files
+[2.550s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/songdavid/ff_ws/src/autonomous_exploration' returned '0': PYTHONPATH=/home/songdavid/ff_ws/build/autonomous_exploration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/songdavid/ff_ws/install/autonomous_exploration/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autonomous_exploration build --build-base /home/songdavid/ff_ws/build/autonomous_exploration/build install --record /home/songdavid/ff_ws/build/autonomous_exploration/install.log --single-version-externally-managed install_data
+[2.550s] Level 1:colcon.colcon_core.environment:checking '/home/songdavid/ff_ws/install/autonomous_exploration' for CMake config files
+[2.551s] Level 1:colcon.colcon_core.environment:checking '/home/songdavid/ff_ws/install/autonomous_exploration/lib'
+[2.551s] Level 1:colcon.colcon_core.environment:checking '/home/songdavid/ff_ws/install/autonomous_exploration/bin'
+[2.552s] Level 1:colcon.colcon_core.environment:checking '/home/songdavid/ff_ws/install/autonomous_exploration/lib/pkgconfig/autonomous_exploration.pc'
+[2.552s] Level 1:colcon.colcon_core.environment:checking '/home/songdavid/ff_ws/install/autonomous_exploration/lib/python3.10/site-packages'
+[2.552s] Level 1:colcon.colcon_core.shell:create_environment_hook('autonomous_exploration', 'pythonpath')
+[2.553s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/songdavid/ff_ws/install/autonomous_exploration/share/autonomous_exploration/hook/pythonpath.ps1'
+[2.553s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/songdavid/ff_ws/install/autonomous_exploration/share/autonomous_exploration/hook/pythonpath.dsv'
+[2.554s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/songdavid/ff_ws/install/autonomous_exploration/share/autonomous_exploration/hook/pythonpath.sh'
+[2.555s] Level 1:colcon.colcon_core.environment:checking '/home/songdavid/ff_ws/install/autonomous_exploration/bin'
+[2.555s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autonomous_exploration)
+[2.556s] INFO:colcon.colcon_core.shell:Creating package script '/home/songdavid/ff_ws/install/autonomous_exploration/share/autonomous_exploration/package.ps1'
+[2.557s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/songdavid/ff_ws/install/autonomous_exploration/share/autonomous_exploration/package.dsv'
+[2.557s] INFO:colcon.colcon_core.shell:Creating package script '/home/songdavid/ff_ws/install/autonomous_exploration/share/autonomous_exploration/package.sh'
+[2.558s] INFO:colcon.colcon_core.shell:Creating package script '/home/songdavid/ff_ws/install/autonomous_exploration/share/autonomous_exploration/package.bash'
+[2.559s] INFO:colcon.colcon_core.shell:Creating package script '/home/songdavid/ff_ws/install/autonomous_exploration/share/autonomous_exploration/package.zsh'
+[2.559s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/songdavid/ff_ws/install/autonomous_exploration/share/colcon-core/packages/autonomous_exploration)
+[2.561s] Level 1:colcon.colcon_core.environment:checking '/home/songdavid/ff_ws/install/explorer_map_utils' for CMake module files
+[2.562s] Level 1:colcon.colcon_core.environment:checking '/home/songdavid/ff_ws/install/explorer_map_utils' for CMake config files
+[2.563s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/songdavid/ff_ws/src/ros2_explorer/explorer_map_utils' returned '0': PYTHONPATH=/home/songdavid/ff_ws/build/explorer_map_utils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/songdavid/ff_ws/install/explorer_map_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/explorer_map_utils build --build-base /home/songdavid/ff_ws/build/explorer_map_utils/build install --record /home/songdavid/ff_ws/build/explorer_map_utils/install.log --single-version-externally-managed install_data
+[2.564s] Level 1:colcon.colcon_core.environment:checking '/home/songdavid/ff_ws/install/explorer_map_utils/lib'
+[2.564s] Level 1:colcon.colcon_core.environment:checking '/home/songdavid/ff_ws/install/explorer_map_utils/bin'
+[2.564s] Level 1:colcon.colcon_core.environment:checking '/home/songdavid/ff_ws/install/explorer_map_utils/lib/pkgconfig/explorer_map_utils.pc'
+[2.565s] Level 1:colcon.colcon_core.environment:checking '/home/songdavid/ff_ws/install/explorer_map_utils/lib/python3.10/site-packages'
+[2.565s] Level 1:colcon.colcon_core.shell:create_environment_hook('explorer_map_utils', 'pythonpath')
+[2.565s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/songdavid/ff_ws/install/explorer_map_utils/share/explorer_map_utils/hook/pythonpath.ps1'
+[2.566s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/songdavid/ff_ws/install/explorer_map_utils/share/explorer_map_utils/hook/pythonpath.dsv'
+[2.566s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/songdavid/ff_ws/install/explorer_map_utils/share/explorer_map_utils/hook/pythonpath.sh'
+[2.567s] Level 1:colcon.colcon_core.environment:checking '/home/songdavid/ff_ws/install/explorer_map_utils/bin'
+[2.568s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(explorer_map_utils)
+[2.568s] INFO:colcon.colcon_core.shell:Creating package script '/home/songdavid/ff_ws/install/explorer_map_utils/share/explorer_map_utils/package.ps1'
+[2.569s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/songdavid/ff_ws/install/explorer_map_utils/share/explorer_map_utils/package.dsv'
+[2.570s] INFO:colcon.colcon_core.shell:Creating package script '/home/songdavid/ff_ws/install/explorer_map_utils/share/explorer_map_utils/package.sh'
+[2.571s] INFO:colcon.colcon_core.shell:Creating package script '/home/songdavid/ff_ws/install/explorer_map_utils/share/explorer_map_utils/package.bash'
+[2.571s] INFO:colcon.colcon_core.shell:Creating package script '/home/songdavid/ff_ws/install/explorer_map_utils/share/explorer_map_utils/package.zsh'
+[2.572s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/songdavid/ff_ws/install/explorer_map_utils/share/colcon-core/packages/explorer_map_utils)
+[2.574s] Level 1:colcon.colcon_core.environment:checking '/home/songdavid/ff_ws/install/explorer_wanderer' for CMake module files
+[2.575s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/songdavid/ff_ws/src/ros2_explorer/explorer_wanderer' returned '0': PYTHONPATH=/home/songdavid/ff_ws/build/explorer_wanderer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/songdavid/ff_ws/install/explorer_wanderer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/explorer_wanderer build --build-base /home/songdavid/ff_ws/build/explorer_wanderer/build install --record /home/songdavid/ff_ws/build/explorer_wanderer/install.log --single-version-externally-managed install_data
+[2.575s] Level 1:colcon.colcon_core.environment:checking '/home/songdavid/ff_ws/install/explorer_wanderer' for CMake config files
+[2.576s] Level 1:colcon.colcon_core.environment:checking '/home/songdavid/ff_ws/install/explorer_wanderer/lib'
+[2.576s] Level 1:colcon.colcon_core.environment:checking '/home/songdavid/ff_ws/install/explorer_wanderer/bin'
+[2.576s] Level 1:colcon.colcon_core.environment:checking '/home/songdavid/ff_ws/install/explorer_wanderer/lib/pkgconfig/explorer_wanderer.pc'
+[2.576s] Level 1:colcon.colcon_core.environment:checking '/home/songdavid/ff_ws/install/explorer_wanderer/lib/python3.10/site-packages'
+[2.577s] Level 1:colcon.colcon_core.shell:create_environment_hook('explorer_wanderer', 'pythonpath')
+[2.577s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/songdavid/ff_ws/install/explorer_wanderer/share/explorer_wanderer/hook/pythonpath.ps1'
+[2.577s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/songdavid/ff_ws/install/explorer_wanderer/share/explorer_wanderer/hook/pythonpath.dsv'
+[2.578s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/songdavid/ff_ws/install/explorer_wanderer/share/explorer_wanderer/hook/pythonpath.sh'
+[2.579s] Level 1:colcon.colcon_core.environment:checking '/home/songdavid/ff_ws/install/explorer_wanderer/bin'
+[2.579s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(explorer_wanderer)
+[2.579s] INFO:colcon.colcon_core.shell:Creating package script '/home/songdavid/ff_ws/install/explorer_wanderer/share/explorer_wanderer/package.ps1'
+[2.580s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/songdavid/ff_ws/install/explorer_wanderer/share/explorer_wanderer/package.dsv'
+[2.581s] INFO:colcon.colcon_core.shell:Creating package script '/home/songdavid/ff_ws/install/explorer_wanderer/share/explorer_wanderer/package.sh'
+[2.581s] INFO:colcon.colcon_core.shell:Creating package script '/home/songdavid/ff_ws/install/explorer_wanderer/share/explorer_wanderer/package.bash'
+[2.582s] INFO:colcon.colcon_core.shell:Creating package script '/home/songdavid/ff_ws/install/explorer_wanderer/share/explorer_wanderer/package.zsh'
+[2.583s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/songdavid/ff_ws/install/explorer_wanderer/share/colcon-core/packages/explorer_wanderer)
+[2.583s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.583s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.583s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.583s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.592s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.592s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.592s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.612s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.613s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/songdavid/ff_ws/install/local_setup.ps1'
+[2.614s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/songdavid/ff_ws/install/_local_setup_util_ps1.py'
+[2.616s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/songdavid/ff_ws/install/setup.ps1'
+[2.619s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/songdavid/ff_ws/install/local_setup.sh'
+[2.620s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/songdavid/ff_ws/install/_local_setup_util_sh.py'
+[2.621s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/songdavid/ff_ws/install/setup.sh'
+[2.624s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/songdavid/ff_ws/install/local_setup.bash'
+[2.625s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/songdavid/ff_ws/install/setup.bash'
+[2.628s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/songdavid/ff_ws/install/local_setup.zsh'
+[2.629s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/songdavid/ff_ws/install/setup.zsh'

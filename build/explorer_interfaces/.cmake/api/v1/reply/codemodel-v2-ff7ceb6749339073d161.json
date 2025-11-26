@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-40792b0f545723a69f0f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "explorer_interfaces__py",
+					"jsonFile" : "directory-explorer_interfaces__py-fb782a16a0f2334bd559.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/songdavid/ff_ws/build/explorer_interfaces/explorer_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "explorer_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_explorer_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_explorer_interfaces_egg-41f231152e1d278b6454.json",
+					"name" : "ament_cmake_python_build_explorer_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_explorer_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_explorer_interfaces-e686b1a2fdf57dea3950.json",
+					"name" : "ament_cmake_python_copy_explorer_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "explorer_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-explorer_interfaces-c6d32a0af7604a1dacfb.json",
+					"name" : "explorer_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "explorer_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-explorer_interfaces__cpp-fdc8ade5e3d0419b5f2e.json",
+					"name" : "explorer_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "explorer_interfaces__py::@a92002f7ee07baaff190",
+					"jsonFile" : "target-explorer_interfaces__py-18788d8e13f3944d690b.json",
+					"name" : "explorer_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "explorer_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-explorer_interfaces__rosidl_generator_c-3ed601fcd9c84335110e.json",
+					"name" : "explorer_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "explorer_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-explorer_interfaces__rosidl_generator_py-bcc0ec761a3d04cb6483.json",
+					"name" : "explorer_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "explorer_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-explorer_interfaces__rosidl_typesupport_c-dc2c47e3fa35a3e751d3.json",
+					"name" : "explorer_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "explorer_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-explorer_interfaces__rosidl_typesupport_c__pyext-7f80064667cf801beb9a.json",
+					"name" : "explorer_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "explorer_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-explorer_interfaces__rosidl_typesupport_cpp-6db5fa5229514a2f98ef.json",
+					"name" : "explorer_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "explorer_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-explorer_interfaces__rosidl_typesupport_fastrtps_c-f7ce1aab52d981bf3efc.json",
+					"name" : "explorer_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "explorer_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-explorer_interfaces__rosidl_typesupport_fastrtps_c__pyext-e70f0858ce90b8297adf.json",
+					"name" : "explorer_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "explorer_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-explorer_interfaces__rosidl_typesupport_fastrtps_cpp-d1ac2c8bd3b750cf5152.json",
+					"name" : "explorer_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "explorer_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-explorer_interfaces__rosidl_typesupport_introspection_c-f1e3bef27d698a82ef98.json",
+					"name" : "explorer_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "explorer_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-explorer_interfaces__rosidl_typesupport_introspection_c__pyext-6025bfd12eab9f7a0f1c.json",
+					"name" : "explorer_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "explorer_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-explorer_interfaces__rosidl_typesupport_introspection_cpp-1326bfecf78660af80ca.json",
+					"name" : "explorer_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "explorer_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-explorer_interfaces_uninstall-5fe0f1d767e717668830.json",
+					"name" : "explorer_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-3e2e1a95c68223156d57.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/songdavid/ff_ws/build/explorer_interfaces",
+		"source" : "/home/songdavid/ff_ws/src/ros2_explorer/explorer_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

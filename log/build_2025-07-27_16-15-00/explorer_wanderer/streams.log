@@ -1,0 +1,23 @@
+[1.237s] Invoking command in '/home/songdavid/ff_ws/src/ros2_explorer/explorer_wanderer': PYTHONPATH=/home/songdavid/ff_ws/build/explorer_wanderer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/songdavid/ff_ws/install/explorer_wanderer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/explorer_wanderer build --build-base /home/songdavid/ff_ws/build/explorer_wanderer/build install --record /home/songdavid/ff_ws/build/explorer_wanderer/install.log --single-version-externally-managed install_data
+[1.546s] running egg_info
+[1.546s] writing ../../../build/explorer_wanderer/explorer_wanderer.egg-info/PKG-INFO
+[1.546s] writing dependency_links to ../../../build/explorer_wanderer/explorer_wanderer.egg-info/dependency_links.txt
+[1.547s] writing entry points to ../../../build/explorer_wanderer/explorer_wanderer.egg-info/entry_points.txt
+[1.547s] writing requirements to ../../../build/explorer_wanderer/explorer_wanderer.egg-info/requires.txt
+[1.547s] writing top-level names to ../../../build/explorer_wanderer/explorer_wanderer.egg-info/top_level.txt
+[1.549s] reading manifest file '../../../build/explorer_wanderer/explorer_wanderer.egg-info/SOURCES.txt'
+[1.550s] writing manifest file '../../../build/explorer_wanderer/explorer_wanderer.egg-info/SOURCES.txt'
+[1.550s] running build
+[1.550s] running build_py
+[1.551s] running install
+[1.551s] running install_lib
+[1.552s] running install_data
+[1.553s] running install_egg_info
+[1.555s] removing '/home/songdavid/ff_ws/install/explorer_wanderer/lib/python3.10/site-packages/explorer_wanderer-0.0.0-py3.10.egg-info' (and everything under it)
+[1.555s] Copying ../../../build/explorer_wanderer/explorer_wanderer.egg-info to /home/songdavid/ff_ws/install/explorer_wanderer/lib/python3.10/site-packages/explorer_wanderer-0.0.0-py3.10.egg-info
+[1.555s] running install_scripts
+[1.578s] Installing discoverer_server script to /home/songdavid/ff_ws/install/explorer_wanderer/lib/explorer_wanderer
+[1.578s] Installing wanderer script to /home/songdavid/ff_ws/install/explorer_wanderer/lib/explorer_wanderer
+[1.578s] Installing wanderer_server script to /home/songdavid/ff_ws/install/explorer_wanderer/lib/explorer_wanderer
+[1.579s] writing list of installed files to '/home/songdavid/ff_ws/build/explorer_wanderer/install.log'
+[1.616s] Invoked command in '/home/songdavid/ff_ws/src/ros2_explorer/explorer_wanderer' returned '0': PYTHONPATH=/home/songdavid/ff_ws/build/explorer_wanderer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/songdavid/ff_ws/install/explorer_wanderer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/explorer_wanderer build --build-base /home/songdavid/ff_ws/build/explorer_wanderer/build install --record /home/songdavid/ff_ws/build/explorer_wanderer/install.log --single-version-externally-managed install_data

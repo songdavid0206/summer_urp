@@ -1,0 +1,21 @@
+[1.596s] Invoking command in '/home/songdavid/ff_ws/src/autonomous_exploration': PYTHONPATH=/home/songdavid/ff_ws/build/autonomous_exploration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/songdavid/ff_ws/install/autonomous_exploration/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autonomous_exploration build --build-base /home/songdavid/ff_ws/build/autonomous_exploration/build install --record /home/songdavid/ff_ws/build/autonomous_exploration/install.log --single-version-externally-managed install_data
+[1.884s] running egg_info
+[1.885s] writing ../../build/autonomous_exploration/autonomous_exploration.egg-info/PKG-INFO
+[1.890s] writing dependency_links to ../../build/autonomous_exploration/autonomous_exploration.egg-info/dependency_links.txt
+[1.891s] writing entry points to ../../build/autonomous_exploration/autonomous_exploration.egg-info/entry_points.txt
+[1.891s] writing requirements to ../../build/autonomous_exploration/autonomous_exploration.egg-info/requires.txt
+[1.891s] writing top-level names to ../../build/autonomous_exploration/autonomous_exploration.egg-info/top_level.txt
+[1.893s] reading manifest file '../../build/autonomous_exploration/autonomous_exploration.egg-info/SOURCES.txt'
+[1.894s] writing manifest file '../../build/autonomous_exploration/autonomous_exploration.egg-info/SOURCES.txt'
+[1.894s] running build
+[1.894s] running build_py
+[1.894s] running install
+[1.895s] running install_lib
+[1.896s] running install_data
+[1.897s] running install_egg_info
+[1.899s] removing '/home/songdavid/ff_ws/install/autonomous_exploration/lib/python3.10/site-packages/autonomous_exploration-0.0.0-py3.10.egg-info' (and everything under it)
+[1.899s] Copying ../../build/autonomous_exploration/autonomous_exploration.egg-info to /home/songdavid/ff_ws/install/autonomous_exploration/lib/python3.10/site-packages/autonomous_exploration-0.0.0-py3.10.egg-info
+[1.900s] running install_scripts
+[1.921s] Installing control script to /home/songdavid/ff_ws/install/autonomous_exploration/lib/autonomous_exploration
+[1.921s] writing list of installed files to '/home/songdavid/ff_ws/build/autonomous_exploration/install.log'
+[1.965s] Invoked command in '/home/songdavid/ff_ws/src/autonomous_exploration' returned '0': PYTHONPATH=/home/songdavid/ff_ws/build/autonomous_exploration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/songdavid/ff_ws/install/autonomous_exploration/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autonomous_exploration build --build-base /home/songdavid/ff_ws/build/autonomous_exploration/build install --record /home/songdavid/ff_ws/build/autonomous_exploration/install.log --single-version-externally-managed install_data

@@ -1,0 +1,4 @@
+[console_scripts]
+explorer = explorer_bringup.explorer:main
+manager = explorer_bringup.manager:main
+

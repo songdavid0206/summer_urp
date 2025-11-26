@@ -1,0 +1,40 @@
+[0.784s] Invoking command in '/home/songdavid/ff_ws/src/autonomous_exploration': PYTHONPATH=/home/songdavid/ff_ws/build/autonomous_exploration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/songdavid/ff_ws/install/autonomous_exploration/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autonomous_exploration build --build-base /home/songdavid/ff_ws/build/autonomous_exploration/build install --record /home/songdavid/ff_ws/build/autonomous_exploration/install.log --single-version-externally-managed install_data
+[1.076s] running egg_info
+[1.077s] creating ../../build/autonomous_exploration/autonomous_exploration.egg-info
+[1.077s] writing ../../build/autonomous_exploration/autonomous_exploration.egg-info/PKG-INFO
+[1.077s] writing dependency_links to ../../build/autonomous_exploration/autonomous_exploration.egg-info/dependency_links.txt
+[1.078s] writing entry points to ../../build/autonomous_exploration/autonomous_exploration.egg-info/entry_points.txt
+[1.078s] writing requirements to ../../build/autonomous_exploration/autonomous_exploration.egg-info/requires.txt
+[1.078s] writing top-level names to ../../build/autonomous_exploration/autonomous_exploration.egg-info/top_level.txt
+[1.078s] writing manifest file '../../build/autonomous_exploration/autonomous_exploration.egg-info/SOURCES.txt'
+[1.080s] reading manifest file '../../build/autonomous_exploration/autonomous_exploration.egg-info/SOURCES.txt'
+[1.082s] writing manifest file '../../build/autonomous_exploration/autonomous_exploration.egg-info/SOURCES.txt'
+[1.082s] running build
+[1.082s] running build_py
+[1.082s] creating /home/songdavid/ff_ws/build/autonomous_exploration/build
+[1.082s] creating /home/songdavid/ff_ws/build/autonomous_exploration/build/lib
+[1.082s] creating /home/songdavid/ff_ws/build/autonomous_exploration/build/lib/autonomous_exploration
+[1.082s] copying autonomous_exploration/control.py -> /home/songdavid/ff_ws/build/autonomous_exploration/build/lib/autonomous_exploration
+[1.083s] copying autonomous_exploration/control_final.py -> /home/songdavid/ff_ws/build/autonomous_exploration/build/lib/autonomous_exploration
+[1.083s] copying autonomous_exploration/__init__.py -> /home/songdavid/ff_ws/build/autonomous_exploration/build/lib/autonomous_exploration
+[1.083s] running install
+[1.083s] running install_lib
+[1.084s] creating /home/songdavid/ff_ws/install/autonomous_exploration/lib/python3.10/site-packages/autonomous_exploration
+[1.084s] copying /home/songdavid/ff_ws/build/autonomous_exploration/build/lib/autonomous_exploration/control.py -> /home/songdavid/ff_ws/install/autonomous_exploration/lib/python3.10/site-packages/autonomous_exploration
+[1.084s] copying /home/songdavid/ff_ws/build/autonomous_exploration/build/lib/autonomous_exploration/control_final.py -> /home/songdavid/ff_ws/install/autonomous_exploration/lib/python3.10/site-packages/autonomous_exploration
+[1.085s] copying /home/songdavid/ff_ws/build/autonomous_exploration/build/lib/autonomous_exploration/__init__.py -> /home/songdavid/ff_ws/install/autonomous_exploration/lib/python3.10/site-packages/autonomous_exploration
+[1.085s] byte-compiling /home/songdavid/ff_ws/install/autonomous_exploration/lib/python3.10/site-packages/autonomous_exploration/control.py to control.cpython-310.pyc
+[1.089s] byte-compiling /home/songdavid/ff_ws/install/autonomous_exploration/lib/python3.10/site-packages/autonomous_exploration/control_final.py to control_final.cpython-310.pyc
+[1.092s] byte-compiling /home/songdavid/ff_ws/install/autonomous_exploration/lib/python3.10/site-packages/autonomous_exploration/__init__.py to __init__.cpython-310.pyc
+[1.092s] running install_data
+[1.092s] creating /home/songdavid/ff_ws/install/autonomous_exploration/share/ament_index
+[1.092s] creating /home/songdavid/ff_ws/install/autonomous_exploration/share/ament_index/resource_index
+[1.092s] creating /home/songdavid/ff_ws/install/autonomous_exploration/share/ament_index/resource_index/packages
+[1.092s] copying resource/autonomous_exploration -> /home/songdavid/ff_ws/install/autonomous_exploration/share/ament_index/resource_index/packages
+[1.092s] copying package.xml -> /home/songdavid/ff_ws/install/autonomous_exploration/share/autonomous_exploration
+[1.092s] running install_egg_info
+[1.096s] Copying ../../build/autonomous_exploration/autonomous_exploration.egg-info to /home/songdavid/ff_ws/install/autonomous_exploration/lib/python3.10/site-packages/autonomous_exploration-0.0.0-py3.10.egg-info
+[1.097s] running install_scripts
+[1.123s] Installing control = autonomous_exploration.control:maincontrol_final script to /home/songdavid/ff_ws/install/autonomous_exploration/lib/autonomous_exploration
+[1.123s] writing list of installed files to '/home/songdavid/ff_ws/build/autonomous_exploration/install.log'
+[1.167s] Invoked command in '/home/songdavid/ff_ws/src/autonomous_exploration' returned '0': PYTHONPATH=/home/songdavid/ff_ws/build/autonomous_exploration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/songdavid/ff_ws/install/autonomous_exploration/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autonomous_exploration build --build-base /home/songdavid/ff_ws/build/autonomous_exploration/build install --record /home/songdavid/ff_ws/build/autonomous_exploration/install.log --single-version-externally-managed install_data

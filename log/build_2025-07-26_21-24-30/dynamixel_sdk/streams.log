@@ -1,0 +1,86 @@
+[0.046s] Invoking command in '/home/songdavid/ff_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/songdavid/turtlebot3_ws/install/explorer_bringup:/home/songdavid/turtlebot3_ws/install/turtlebot3_teleop:/home/songdavid/turtlebot3_ws/install/turtlebot3_example:/home/songdavid/turtlebot3_ws/install/explorer_wanderer:/home/songdavid/turtlebot3_ws/install/explorer_map_utils:/home/songdavid/turtlebot3_ws/install/exploration_pkg:/opt/ros/humble /usr/bin/cmake --build /home/songdavid/ff_ws/build/dynamixel_sdk -- -j8 -l8
+[0.441s] [100%] Built target dynamixel_sdk
+[0.441s] [100%] Built target ament_cmake_python_copy_dynamixel_sdk
+[0.441s] running egg_info
+[0.441s] writing dynamixel_sdk.egg-info/PKG-INFO
+[0.441s] writing dependency_links to dynamixel_sdk.egg-info/dependency_links.txt
+[0.441s] writing top-level names to dynamixel_sdk.egg-info/top_level.txt
+[0.443s] reading manifest file 'dynamixel_sdk.egg-info/SOURCES.txt'
+[0.444s] writing manifest file 'dynamixel_sdk.egg-info/SOURCES.txt'
+[0.554s] [100%] Built target ament_cmake_python_build_dynamixel_sdk_egg
+[0.636s] Invoked command in '/home/songdavid/ff_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/songdavid/turtlebot3_ws/install/explorer_bringup:/home/songdavid/turtlebot3_ws/install/turtlebot3_teleop:/home/songdavid/turtlebot3_ws/install/turtlebot3_example:/home/songdavid/turtlebot3_ws/install/explorer_wanderer:/home/songdavid/turtlebot3_ws/install/explorer_map_utils:/home/songdavid/turtlebot3_ws/install/exploration_pkg:/opt/ros/humble /usr/bin/cmake --build /home/songdavid/ff_ws/build/dynamixel_sdk -- -j8 -l8
+[0.636s] Invoking command in '/home/songdavid/ff_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/songdavid/turtlebot3_ws/install/explorer_bringup:/home/songdavid/turtlebot3_ws/install/turtlebot3_teleop:/home/songdavid/turtlebot3_ws/install/turtlebot3_example:/home/songdavid/turtlebot3_ws/install/explorer_wanderer:/home/songdavid/turtlebot3_ws/install/explorer_map_utils:/home/songdavid/turtlebot3_ws/install/exploration_pkg:/opt/ros/humble /usr/bin/cmake --install /home/songdavid/ff_ws/build/dynamixel_sdk
+[0.649s] -- Install configuration: ""
+[0.649s] -- Up-to-date: /home/songdavid/ff_ws/install/dynamixel_sdk/include/
+[0.649s] -- Up-to-date: /home/songdavid/ff_ws/install/dynamixel_sdk/include//dynamixel_sdk
+[0.649s] -- Up-to-date: /home/songdavid/ff_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler.h
+[0.650s] -- Up-to-date: /home/songdavid/ff_ws/install/dynamixel_sdk/include//dynamixel_sdk/dynamixel_sdk.h
+[0.650s] -- Up-to-date: /home/songdavid/ff_ws/install/dynamixel_sdk/include//dynamixel_sdk/packet_handler.h
+[0.650s] -- Up-to-date: /home/songdavid/ff_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_windows.h
+[0.650s] -- Up-to-date: /home/songdavid/ff_ws/install/dynamixel_sdk/include//dynamixel_sdk/protocol2_packet_handler.h
+[0.650s] -- Up-to-date: /home/songdavid/ff_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_fast_sync_read.h
+[0.650s] -- Up-to-date: /home/songdavid/ff_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_write.h
+[0.650s] -- Up-to-date: /home/songdavid/ff_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_read.h
+[0.650s] -- Up-to-date: /home/songdavid/ff_ws/install/dynamixel_sdk/include//dynamixel_sdk/protocol1_packet_handler.h
+[0.650s] -- Up-to-date: /home/songdavid/ff_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_mac.h
+[0.650s] -- Up-to-date: /home/songdavid/ff_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_fast_bulk_read.h
+[0.650s] -- Up-to-date: /home/songdavid/ff_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_write.h
+[0.650s] -- Up-to-date: /home/songdavid/ff_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_arduino.h
+[0.650s] -- Up-to-date: /home/songdavid/ff_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_linux.h
+[0.650s] -- Up-to-date: /home/songdavid/ff_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_read.h
+[0.650s] -- Up-to-date: /home/songdavid/ff_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_handler.h
+[0.651s] -- Up-to-date: /home/songdavid/ff_ws/install/dynamixel_sdk/lib/libdynamixel_sdk.so
+[0.652s] -- Up-to-date: /home/songdavid/ff_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/pythonpath.sh
+[0.653s] -- Up-to-date: /home/songdavid/ff_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/pythonpath.dsv
+[0.653s] -- Up-to-date: /home/songdavid/ff_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk-3.8.3-py3.10.egg-info
+[0.653s] -- Installing: /home/songdavid/ff_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk-3.8.3-py3.10.egg-info/SOURCES.txt
+[0.653s] -- Installing: /home/songdavid/ff_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk-3.8.3-py3.10.egg-info/PKG-INFO
+[0.653s] -- Installing: /home/songdavid/ff_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk-3.8.3-py3.10.egg-info/dependency_links.txt
+[0.653s] -- Installing: /home/songdavid/ff_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk-3.8.3-py3.10.egg-info/top_level.txt
+[0.653s] -- Up-to-date: /home/songdavid/ff_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk
+[0.653s] -- Up-to-date: /home/songdavid/ff_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/port_handler_arduino.cpp
+[0.653s] -- Up-to-date: /home/songdavid/ff_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_sync_write.py
+[0.653s] -- Up-to-date: /home/songdavid/ff_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_bulk_write.py
+[0.654s] -- Up-to-date: /home/songdavid/ff_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_sync_write.cpp
+[0.654s] -- Up-to-date: /home/songdavid/ff_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_bulk_read.py
+[0.654s] -- Up-to-date: /home/songdavid/ff_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_handler.cpp
+[0.654s] -- Up-to-date: /home/songdavid/ff_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/protocol1_packet_handler.cpp
+[0.654s] -- Up-to-date: /home/songdavid/ff_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/protocol1_packet_handler.py
+[0.661s] -- Up-to-date: /home/songdavid/ff_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/packet_handler.cpp
+[0.661s] -- Up-to-date: /home/songdavid/ff_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/protocol2_packet_handler.py
+[0.662s] -- Up-to-date: /home/songdavid/ff_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_fast_bulk_read.cpp
+[0.662s] -- Up-to-date: /home/songdavid/ff_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_fast_sync_read.cpp
+[0.662s] -- Up-to-date: /home/songdavid/ff_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_bulk_write.cpp
+[0.662s] -- Up-to-date: /home/songdavid/ff_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/port_handler.cpp
+[0.662s] -- Up-to-date: /home/songdavid/ff_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/port_handler_windows.cpp
+[0.662s] -- Up-to-date: /home/songdavid/ff_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/protocol2_packet_handler.cpp
+[0.662s] -- Up-to-date: /home/songdavid/ff_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_sync_read.cpp
+[0.662s] -- Up-to-date: /home/songdavid/ff_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_bulk_read.cpp
+[0.662s] -- Up-to-date: /home/songdavid/ff_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/__init__.py
+[0.662s] -- Up-to-date: /home/songdavid/ff_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/robotis_def.py
+[0.662s] -- Up-to-date: /home/songdavid/ff_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/packet_handler.py
+[0.663s] -- Up-to-date: /home/songdavid/ff_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/port_handler_mac.cpp
+[0.663s] -- Up-to-date: /home/songdavid/ff_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/port_handler_linux.cpp
+[0.663s] -- Up-to-date: /home/songdavid/ff_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/port_handler.py
+[0.663s] -- Up-to-date: /home/songdavid/ff_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_sync_read.py
+[0.701s] Listing '/home/songdavid/ff_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk'...
+[0.708s] -- Up-to-date: /home/songdavid/ff_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.sh
+[0.708s] -- Up-to-date: /home/songdavid/ff_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.dsv
+[0.708s] -- Up-to-date: /home/songdavid/ff_ws/install/dynamixel_sdk/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk
+[0.708s] -- Up-to-date: /home/songdavid/ff_ws/install/dynamixel_sdk/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk
+[0.709s] -- Up-to-date: /home/songdavid/ff_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.sh
+[0.709s] -- Up-to-date: /home/songdavid/ff_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.dsv
+[0.709s] -- Up-to-date: /home/songdavid/ff_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.sh
+[0.709s] -- Up-to-date: /home/songdavid/ff_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.dsv
+[0.709s] -- Up-to-date: /home/songdavid/ff_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.bash
+[0.709s] -- Up-to-date: /home/songdavid/ff_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.sh
+[0.709s] -- Up-to-date: /home/songdavid/ff_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.zsh
+[0.709s] -- Up-to-date: /home/songdavid/ff_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.dsv
+[0.710s] -- Installing: /home/songdavid/ff_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.dsv
+[0.710s] -- Up-to-date: /home/songdavid/ff_ws/install/dynamixel_sdk/share/ament_index/resource_index/packages/dynamixel_sdk
+[0.710s] -- Up-to-date: /home/songdavid/ff_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.710s] -- Up-to-date: /home/songdavid/ff_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_libraries-extras.cmake
+[0.710s] -- Up-to-date: /home/songdavid/ff_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig.cmake
+[0.710s] -- Up-to-date: /home/songdavid/ff_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig-version.cmake
+[0.710s] -- Up-to-date: /home/songdavid/ff_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.xml
+[0.974s] Invoked command in '/home/songdavid/ff_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/songdavid/turtlebot3_ws/install/explorer_bringup:/home/songdavid/turtlebot3_ws/install/turtlebot3_teleop:/home/songdavid/turtlebot3_ws/install/turtlebot3_example:/home/songdavid/turtlebot3_ws/install/explorer_wanderer:/home/songdavid/turtlebot3_ws/install/explorer_map_utils:/home/songdavid/turtlebot3_ws/install/exploration_pkg:/opt/ros/humble /usr/bin/cmake --install /home/songdavid/ff_ws/build/dynamixel_sdk

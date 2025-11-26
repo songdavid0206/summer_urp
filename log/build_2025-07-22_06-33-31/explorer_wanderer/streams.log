@@ -1,0 +1,45 @@
+[2.487s] Invoking command in '/home/songdavid/ff_ws/src/ros2_explorer/explorer_wanderer': PYTHONPATH=/home/songdavid/ff_ws/build/explorer_wanderer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/songdavid/ff_ws/install/explorer_wanderer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/explorer_wanderer build --build-base /home/songdavid/ff_ws/build/explorer_wanderer/build install --record /home/songdavid/ff_ws/build/explorer_wanderer/install.log --single-version-externally-managed install_data
+[3.070s] running egg_info
+[3.071s] creating ../../../build/explorer_wanderer/explorer_wanderer.egg-info
+[3.072s] writing ../../../build/explorer_wanderer/explorer_wanderer.egg-info/PKG-INFO
+[3.072s] writing dependency_links to ../../../build/explorer_wanderer/explorer_wanderer.egg-info/dependency_links.txt
+[3.072s] writing entry points to ../../../build/explorer_wanderer/explorer_wanderer.egg-info/entry_points.txt
+[3.072s] writing requirements to ../../../build/explorer_wanderer/explorer_wanderer.egg-info/requires.txt
+[3.072s] writing top-level names to ../../../build/explorer_wanderer/explorer_wanderer.egg-info/top_level.txt
+[3.073s] writing manifest file '../../../build/explorer_wanderer/explorer_wanderer.egg-info/SOURCES.txt'
+[3.077s] reading manifest file '../../../build/explorer_wanderer/explorer_wanderer.egg-info/SOURCES.txt'
+[3.080s] writing manifest file '../../../build/explorer_wanderer/explorer_wanderer.egg-info/SOURCES.txt'
+[3.080s] running build
+[3.080s] running build_py
+[3.081s] creating /home/songdavid/ff_ws/build/explorer_wanderer/build
+[3.081s] creating /home/songdavid/ff_ws/build/explorer_wanderer/build/lib
+[3.081s] creating /home/songdavid/ff_ws/build/explorer_wanderer/build/lib/explorer_wanderer
+[3.081s] copying explorer_wanderer/discoverer_server.py -> /home/songdavid/ff_ws/build/explorer_wanderer/build/lib/explorer_wanderer
+[3.081s] copying explorer_wanderer/wanderer.py -> /home/songdavid/ff_ws/build/explorer_wanderer/build/lib/explorer_wanderer
+[3.082s] copying explorer_wanderer/wanderer_server.py -> /home/songdavid/ff_ws/build/explorer_wanderer/build/lib/explorer_wanderer
+[3.082s] copying explorer_wanderer/__init__.py -> /home/songdavid/ff_ws/build/explorer_wanderer/build/lib/explorer_wanderer
+[3.082s] running install
+[3.083s] running install_lib
+[3.085s] creating /home/songdavid/ff_ws/install/explorer_wanderer/lib/python3.10/site-packages/explorer_wanderer
+[3.085s] copying /home/songdavid/ff_ws/build/explorer_wanderer/build/lib/explorer_wanderer/discoverer_server.py -> /home/songdavid/ff_ws/install/explorer_wanderer/lib/python3.10/site-packages/explorer_wanderer
+[3.085s] copying /home/songdavid/ff_ws/build/explorer_wanderer/build/lib/explorer_wanderer/wanderer.py -> /home/songdavid/ff_ws/install/explorer_wanderer/lib/python3.10/site-packages/explorer_wanderer
+[3.085s] copying /home/songdavid/ff_ws/build/explorer_wanderer/build/lib/explorer_wanderer/wanderer_server.py -> /home/songdavid/ff_ws/install/explorer_wanderer/lib/python3.10/site-packages/explorer_wanderer
+[3.085s] copying /home/songdavid/ff_ws/build/explorer_wanderer/build/lib/explorer_wanderer/__init__.py -> /home/songdavid/ff_ws/install/explorer_wanderer/lib/python3.10/site-packages/explorer_wanderer
+[3.086s] byte-compiling /home/songdavid/ff_ws/install/explorer_wanderer/lib/python3.10/site-packages/explorer_wanderer/discoverer_server.py to discoverer_server.cpython-310.pyc
+[3.093s] byte-compiling /home/songdavid/ff_ws/install/explorer_wanderer/lib/python3.10/site-packages/explorer_wanderer/wanderer.py to wanderer.cpython-310.pyc
+[3.093s] byte-compiling /home/songdavid/ff_ws/install/explorer_wanderer/lib/python3.10/site-packages/explorer_wanderer/wanderer_server.py to wanderer_server.cpython-310.pyc
+[3.096s] byte-compiling /home/songdavid/ff_ws/install/explorer_wanderer/lib/python3.10/site-packages/explorer_wanderer/__init__.py to __init__.cpython-310.pyc
+[3.097s] running install_data
+[3.097s] creating /home/songdavid/ff_ws/install/explorer_wanderer/share/ament_index
+[3.097s] creating /home/songdavid/ff_ws/install/explorer_wanderer/share/ament_index/resource_index
+[3.097s] creating /home/songdavid/ff_ws/install/explorer_wanderer/share/ament_index/resource_index/packages
+[3.098s] copying resource/explorer_wanderer -> /home/songdavid/ff_ws/install/explorer_wanderer/share/ament_index/resource_index/packages
+[3.098s] copying package.xml -> /home/songdavid/ff_ws/install/explorer_wanderer/share/explorer_wanderer
+[3.099s] running install_egg_info
+[3.102s] Copying ../../../build/explorer_wanderer/explorer_wanderer.egg-info to /home/songdavid/ff_ws/install/explorer_wanderer/lib/python3.10/site-packages/explorer_wanderer-0.0.0-py3.10.egg-info
+[3.104s] running install_scripts
+[3.163s] Installing discoverer_server script to /home/songdavid/ff_ws/install/explorer_wanderer/lib/explorer_wanderer
+[3.164s] Installing wanderer script to /home/songdavid/ff_ws/install/explorer_wanderer/lib/explorer_wanderer
+[3.164s] Installing wanderer_server script to /home/songdavid/ff_ws/install/explorer_wanderer/lib/explorer_wanderer
+[3.165s] writing list of installed files to '/home/songdavid/ff_ws/build/explorer_wanderer/install.log'
+[3.253s] Invoked command in '/home/songdavid/ff_ws/src/ros2_explorer/explorer_wanderer' returned '0': PYTHONPATH=/home/songdavid/ff_ws/build/explorer_wanderer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/songdavid/ff_ws/install/explorer_wanderer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/explorer_wanderer build --build-base /home/songdavid/ff_ws/build/explorer_wanderer/build install --record /home/songdavid/ff_ws/build/explorer_wanderer/install.log --single-version-externally-managed install_data

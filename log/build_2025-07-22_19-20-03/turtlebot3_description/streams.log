@@ -1,0 +1,61 @@
+[0.050s] Invoking command in '/home/songdavid/ff_ws/build/turtlebot3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/songdavid/ff_ws/install/explorer_wanderer:/home/songdavid/ff_ws/install/explorer_map_utils:/home/songdavid/ff_ws/install/explorer_bringup:/home/songdavid/ff_ws/install/autonomous_exploration:/home/songdavid/turtlebot3_ws/install/explorer_bringup:/home/songdavid/turtlebot3_ws/install/turtlebot3_teleop:/home/songdavid/turtlebot3_ws/install/turtlebot3_example:/home/songdavid/turtlebot3_ws/install/explorer_wanderer:/home/songdavid/turtlebot3_ws/install/explorer_map_utils:/home/songdavid/turtlebot3_ws/install/exploration_pkg:/opt/ros/humble /usr/bin/cmake /home/songdavid/ff_ws/src/turtlebot3/turtlebot3_description -DCMAKE_INSTALL_PREFIX=/home/songdavid/ff_ws/install/turtlebot3_description
+[0.809s] -- The C compiler identification is GNU 11.4.0
+[0.810s] -- The CXX compiler identification is GNU 11.4.0
+[0.810s] -- Detecting C compiler ABI info
+[0.810s] -- Detecting C compiler ABI info - done
+[0.810s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.810s] -- Detecting C compile features
+[0.810s] -- Detecting C compile features - done
+[0.810s] -- Detecting CXX compiler ABI info
+[0.811s] -- Detecting CXX compiler ABI info - done
+[0.811s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.811s] -- Detecting CXX compile features
+[0.811s] -- Detecting CXX compile features - done
+[0.812s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.812s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.908s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[1.136s] -- Configuring done
+[1.139s] -- Generating done
+[1.142s] -- Build files have been written to: /home/songdavid/ff_ws/build/turtlebot3_description
+[1.548s] Invoked command in '/home/songdavid/ff_ws/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/songdavid/ff_ws/install/explorer_wanderer:/home/songdavid/ff_ws/install/explorer_map_utils:/home/songdavid/ff_ws/install/explorer_bringup:/home/songdavid/ff_ws/install/autonomous_exploration:/home/songdavid/turtlebot3_ws/install/explorer_bringup:/home/songdavid/turtlebot3_ws/install/turtlebot3_teleop:/home/songdavid/turtlebot3_ws/install/turtlebot3_example:/home/songdavid/turtlebot3_ws/install/explorer_wanderer:/home/songdavid/turtlebot3_ws/install/explorer_map_utils:/home/songdavid/turtlebot3_ws/install/exploration_pkg:/opt/ros/humble /usr/bin/cmake /home/songdavid/ff_ws/src/turtlebot3/turtlebot3_description -DCMAKE_INSTALL_PREFIX=/home/songdavid/ff_ws/install/turtlebot3_description
+[1.549s] Invoking command in '/home/songdavid/ff_ws/build/turtlebot3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/songdavid/ff_ws/install/explorer_wanderer:/home/songdavid/ff_ws/install/explorer_map_utils:/home/songdavid/ff_ws/install/explorer_bringup:/home/songdavid/ff_ws/install/autonomous_exploration:/home/songdavid/turtlebot3_ws/install/explorer_bringup:/home/songdavid/turtlebot3_ws/install/turtlebot3_teleop:/home/songdavid/turtlebot3_ws/install/turtlebot3_example:/home/songdavid/turtlebot3_ws/install/explorer_wanderer:/home/songdavid/turtlebot3_ws/install/explorer_map_utils:/home/songdavid/turtlebot3_ws/install/exploration_pkg:/opt/ros/humble /usr/bin/cmake --build /home/songdavid/ff_ws/build/turtlebot3_description -- -j8 -l8
+[1.883s] Invoked command in '/home/songdavid/ff_ws/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/songdavid/ff_ws/install/explorer_wanderer:/home/songdavid/ff_ws/install/explorer_map_utils:/home/songdavid/ff_ws/install/explorer_bringup:/home/songdavid/ff_ws/install/autonomous_exploration:/home/songdavid/turtlebot3_ws/install/explorer_bringup:/home/songdavid/turtlebot3_ws/install/turtlebot3_teleop:/home/songdavid/turtlebot3_ws/install/turtlebot3_example:/home/songdavid/turtlebot3_ws/install/explorer_wanderer:/home/songdavid/turtlebot3_ws/install/explorer_map_utils:/home/songdavid/turtlebot3_ws/install/exploration_pkg:/opt/ros/humble /usr/bin/cmake --build /home/songdavid/ff_ws/build/turtlebot3_description -- -j8 -l8
+[1.885s] Invoking command in '/home/songdavid/ff_ws/build/turtlebot3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/songdavid/ff_ws/install/explorer_wanderer:/home/songdavid/ff_ws/install/explorer_map_utils:/home/songdavid/ff_ws/install/explorer_bringup:/home/songdavid/ff_ws/install/autonomous_exploration:/home/songdavid/turtlebot3_ws/install/explorer_bringup:/home/songdavid/turtlebot3_ws/install/turtlebot3_teleop:/home/songdavid/turtlebot3_ws/install/turtlebot3_example:/home/songdavid/turtlebot3_ws/install/explorer_wanderer:/home/songdavid/turtlebot3_ws/install/explorer_map_utils:/home/songdavid/turtlebot3_ws/install/exploration_pkg:/opt/ros/humble /usr/bin/cmake --install /home/songdavid/ff_ws/build/turtlebot3_description
+[1.897s] -- Install configuration: ""
+[1.897s] -- Installing: /home/songdavid/ff_ws/install/turtlebot3_description/share/turtlebot3_description/meshes
+[1.897s] -- Installing: /home/songdavid/ff_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels
+[1.897s] -- Installing: /home/songdavid/ff_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels/left_tire.stl
+[1.898s] -- Installing: /home/songdavid/ff_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels/right_tire.stl
+[1.900s] -- Installing: /home/songdavid/ff_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors
+[1.900s] -- Installing: /home/songdavid/ff_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/r200.dae
+[1.900s] -- Installing: /home/songdavid/ff_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/lds.stl
+[1.902s] -- Installing: /home/songdavid/ff_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/astra.dae
+[1.916s] -- Installing: /home/songdavid/ff_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/astra.jpg
+[1.916s] -- Installing: /home/songdavid/ff_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/r200.jpg
+[1.916s] -- Installing: /home/songdavid/ff_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases
+[1.916s] -- Installing: /home/songdavid/ff_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/burger_base.stl
+[1.917s] -- Installing: /home/songdavid/ff_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base.stl
+[1.932s] -- Installing: /home/songdavid/ff_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_pi_base.stl
+[1.942s] -- Installing: /home/songdavid/ff_ws/install/turtlebot3_description/share/turtlebot3_description/rviz
+[1.942s] -- Installing: /home/songdavid/ff_ws/install/turtlebot3_description/share/turtlebot3_description/rviz/model.rviz
+[1.942s] -- Installing: /home/songdavid/ff_ws/install/turtlebot3_description/share/turtlebot3_description/urdf
+[1.942s] -- Installing: /home/songdavid/ff_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/common_properties.urdf
+[1.943s] -- Installing: /home/songdavid/ff_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_waffle_pi.urdf
+[1.943s] -- Installing: /home/songdavid/ff_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_waffle.urdf
+[1.943s] -- Installing: /home/songdavid/ff_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_burger.urdf
+[1.943s] -- Installing: /home/songdavid/ff_ws/install/turtlebot3_description/share/ament_index/resource_index/package_run_dependencies/turtlebot3_description
+[1.943s] -- Installing: /home/songdavid/ff_ws/install/turtlebot3_description/share/ament_index/resource_index/parent_prefix_path/turtlebot3_description
+[1.943s] -- Installing: /home/songdavid/ff_ws/install/turtlebot3_description/share/turtlebot3_description/environment/ament_prefix_path.sh
+[1.943s] -- Installing: /home/songdavid/ff_ws/install/turtlebot3_description/share/turtlebot3_description/environment/ament_prefix_path.dsv
+[1.944s] -- Installing: /home/songdavid/ff_ws/install/turtlebot3_description/share/turtlebot3_description/environment/path.sh
+[1.944s] -- Installing: /home/songdavid/ff_ws/install/turtlebot3_description/share/turtlebot3_description/environment/path.dsv
+[1.944s] -- Installing: /home/songdavid/ff_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.bash
+[1.944s] -- Installing: /home/songdavid/ff_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.sh
+[1.944s] -- Installing: /home/songdavid/ff_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.zsh
+[1.944s] -- Installing: /home/songdavid/ff_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.dsv
+[1.946s] -- Installing: /home/songdavid/ff_ws/install/turtlebot3_description/share/turtlebot3_description/package.dsv
+[1.947s] -- Installing: /home/songdavid/ff_ws/install/turtlebot3_description/share/ament_index/resource_index/packages/turtlebot3_description
+[1.947s] -- Installing: /home/songdavid/ff_ws/install/turtlebot3_description/share/turtlebot3_description/cmake/turtlebot3_descriptionConfig.cmake
+[1.947s] -- Installing: /home/songdavid/ff_ws/install/turtlebot3_description/share/turtlebot3_description/cmake/turtlebot3_descriptionConfig-version.cmake
+[1.947s] -- Installing: /home/songdavid/ff_ws/install/turtlebot3_description/share/turtlebot3_description/package.xml
+[1.951s] Invoked command in '/home/songdavid/ff_ws/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/songdavid/ff_ws/install/explorer_wanderer:/home/songdavid/ff_ws/install/explorer_map_utils:/home/songdavid/ff_ws/install/explorer_bringup:/home/songdavid/ff_ws/install/autonomous_exploration:/home/songdavid/turtlebot3_ws/install/explorer_bringup:/home/songdavid/turtlebot3_ws/install/turtlebot3_teleop:/home/songdavid/turtlebot3_ws/install/turtlebot3_example:/home/songdavid/turtlebot3_ws/install/explorer_wanderer:/home/songdavid/turtlebot3_ws/install/explorer_map_utils:/home/songdavid/turtlebot3_ws/install/exploration_pkg:/opt/ros/humble /usr/bin/cmake --install /home/songdavid/ff_ws/build/turtlebot3_description
